@@ -17,8 +17,8 @@
         <link rel="alternate" href="/magically-setup-emacsclient.html" type="text/html"/>
         <id>/magically-setup-emacsclient.html</id>
         
-        <content type="html">&lt;p&gt;This is a magical way of automatically setting up emacsclient, by &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;user&#x2F;northrupthebandgeek&quot;&gt;northrupthebandgeek&lt;&#x2F;a&gt;. If you start emacs for the first time, it will start a server. If the server has already been started, it will delegate to emacsclient. &lt;&#x2F;p&gt;
-&lt;p&gt;One tiny improvement over the function defined on the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;r&#x2F;emacs&#x2F;comments&#x2F;4586eq&#x2F;quick_emacs_snippet_to_automatically_use&#x2F;&quot;&gt;reddit post&lt;&#x2F;a&gt;, is that this doesn&#x27;t guess what is the name of the emacs server file. It instead generates the nam
+        <content type="html">&lt;p&gt;This is a magical way of automatically setting up emacsclient, by &lt;a href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;user&#x2F;northrupthebandgeek&quot;&gt;northrupthebandgeek&lt;&#x2F;a&gt;. If you start emacs for the first time, it will start a server. If the server has already been started, it will delegate to emacsclient. &lt;&#x2F;p&gt;
+&lt;p&gt;One tiny improvement over the function defined on the &lt;a href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;r&#x2F;emacs&#x2F;comments&#x2F;4586eq&#x2F;quick_emacs_snippet_to_automatically_use&#x2F;&quot;&gt;reddit post&lt;&#x2F;a&gt;, is that this doesn&#x27;t guess what is the name of the emacs server file. It instead generates the nam
 e in the same ways as done by the server package.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;el&quot; class=&quot;language-el z-code&quot;&gt;&lt;code class=&quot;language-el&quot; data-lang=&quot;el&quot;&gt;&lt;span class=&quot;z-source z-lisp&quot;&gt;&lt;span class=&quot;z-comment z-line z-semicolon z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-lisp&quot;&gt;;&lt;&#x2F;span&gt;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 &lt;&#x2F;span&gt;    &lt;span class=&quot;z-comment z-line z-semicolon z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-lisp&quot;&gt;;&lt;&#x2F;span&gt;; from: https:&#x2F;&#x2F;en.reddit.com&#x2F;r&#x2F;emacs&#x2F;comments&#x2F;4586eq&#x2F;quick_emacs_snippet_to_automatically_use&#x2F;
@@ -109,7 +109,7 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
         <id>/transfer-functions-in-python.html</id>
         
         <content type="html">&lt;p&gt;All of this is based on
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;blog.codelv.com&#x2F;2013&#x2F;02&#x2F;control-systems-in-python-part-1.html&quot;&gt;http:&#x2F;&#x2F;blog.codelv.com&#x2F;2013&#x2F;02&#x2F;control-systems-in-python-part-1.html&lt;&#x2F;a&gt;
+&lt;a href=&quot;http:&#x2F;&#x2F;blog.codelv.com&#x2F;2013&#x2F;02&#x2F;control-systems-in-python-part-1.html&quot;&gt;http:&#x2F;&#x2F;blog.codelv.com&#x2F;2013&#x2F;02&#x2F;control-systems-in-python-part-1.html&lt;&#x2F;a&gt;
 . From 2013 to 2018, the python control library has improved a lot, so
 now it is relatively easier to do multiple control operations, such as
 ploting to root locus. This extends the code from frmdstryr to support
@@ -437,18 +437,18 @@ students. Those are my notes, taken during startmit. If there are any
 mistakes, please message me.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;martin-trust-center&quot;&gt;Martin Trust Center&lt;&#x2F;h1&gt;
 &lt;p&gt;Entrepreneur environment. Go there to meet people.&lt;br &#x2F;&gt;
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;coaching&#x2F;&quot;&gt;Entrepreneur in residence&lt;&#x2F;a&gt;, entrepreneurs at MIT to help you.&lt;br &#x2F;&gt;
-Check the MTC website: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;coaching&#x2F;&quot;&gt;Entrepreneur in residence&lt;&#x2F;a&gt;, entrepreneurs at MIT to help you.&lt;br &#x2F;&gt;
+Check the MTC website: &lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;sector-practice-leaders-spl&quot;&gt;Sector practice leaders SPL&lt;&#x2F;h2&gt;
-&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;sector-practice-leaders&#x2F;&quot;&gt;Sector practice leaders&lt;&#x2F;a&gt;, to help you with a specific industry.&lt;br &#x2F;&gt;
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;sector-practice-leaders&#x2F;&quot;&gt;Sector practice leaders&lt;&#x2F;a&gt;, to help you with a specific industry.&lt;br &#x2F;&gt;
 For example:oint the biotech mailing list and hackingmedicine at
 &amp;lt;hackingmedicine.mit.edu&amp;gt; and &amp;lt;biotech.mit.edu&amp;gt;, or the
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;arts.mit.edu&#x2F;start&#x2F;entrepreneurship&#x2F;creative-arts-competition&#x2F;&quot;&gt;creative art competition&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;arts.mit.edu&#x2F;start&#x2F;entrepreneurship&#x2F;creative-arts-competition&#x2F;&quot;&gt;creative art competition&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;sandbox&quot;&gt;Sandbox&lt;&#x2F;h2&gt;
 &lt;p&gt;Fund and mentorship for any student grad or undergrad interested in
 trying entrepreneurship or start a company. $1k for doing market
 research and prototyping. They say mentorship is the most useful part of
-this program. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&lt;&#x2F;a&gt;. February 11 2018 deadline.&lt;&#x2F;p&gt;
+this program. &lt;a href=&quot;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&lt;&#x2F;a&gt;. February 11 2018 deadline.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;the-engine&quot;&gt;The engine&lt;&#x2F;h1&gt;
 &lt;p&gt;Affiliated to MIT but for profit. Help founders go from discovery of
 hadtech to commercialization.&lt;br &#x2F;&gt;
@@ -467,13 +467,13 @@ in the areas they invest:&lt;&#x2F;p&gt;
 &lt;li&gt;Semiconductors&lt;&#x2F;li&gt;
 &lt;li&gt;and the intersection of other new technology&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;Check &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mit-innovation-initiative&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&quot;&gt;MIT innovation initiative&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Check &lt;a href=&quot;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;mit-innovation-initiative&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&quot;&gt;MIT innovation initiative&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;If your path is fuzzy and you need help figuring out your area and what
 to do. Has a resource guide to help you navigate entrepreneurship at
-MIT: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&quot;&gt;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&lt;&#x2F;a&gt;, it also shows what is
+MIT: &lt;a href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&quot;&gt;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&lt;&#x2F;a&gt;, it also shows what is
 happening now at MIT in innovation.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;deshpande-center&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;deshpande.mit.edu&#x2F;&quot;&gt;Deshpande Center&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;deshpande-center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;deshpande.mit.edu&#x2F;&quot;&gt;Deshpande Center&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Moving technology: lab to market. From research to spinout. Grant
 program funding and Mentorships. Has industry mentors and help with
 market discovery. It is close to entrepreneurs and investors and lots of
@@ -484,26 +484,26 @@ to 150k.&lt;&#x2F;p&gt;
 &lt;p&gt;Workshop and Mentorship are advertised as being quite good. It
 encompasses 3 different programs 100k for pitch, 100k for accelerator,
 100k for launch. You should apply for all of them but specially to the
-ones that fits your better. Apply at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&quot;&gt;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+ones that fits your better. Apply at &lt;a href=&quot;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&quot;&gt;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;tfp&quot;&gt;TFP&lt;&#x2F;h2&gt;
-&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.rle.mit.edu&#x2F;translational&#x2F;&quot;&gt;Translational Fellowship
+&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.rle.mit.edu&#x2F;translational&#x2F;&quot;&gt;Translational Fellowship
 program&lt;&#x2F;a&gt;. For when your technology is still very far away from
 commercialization. It is focused on researchers.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;legatum-center&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;legatum.mit.edu&#x2F;&quot;&gt;Legatum Center&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;legatum-center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;legatum.mit.edu&#x2F;&quot;&gt;Legatum Center&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Improve global wellbeing.Put things in the field. Tactical clinics in
 emerging markets.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;tlo&quot;&gt;TLO&lt;&#x2F;h2&gt;
-&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;tlo.mit.edu&#x2F;&quot;&gt;Technology licensing office&lt;&#x2F;a&gt;. Talk to use to
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tlo.mit.edu&#x2F;&quot;&gt;Technology licensing office&lt;&#x2F;a&gt;. Talk to use to
 know if your research intellectual property belongs to MIT or to you.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;memsi-hongkong&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;memsi&#x2F;&quot;&gt;MEMSI hongkong.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;memsi-hongkong&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;memsi&#x2F;&quot;&gt;MEMSI hongkong.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Two programs. One during the summer: May 29 to June 9 2018 and and
 another during IAP. 1 day factory visit in china. Focuses in making and
 entrepreneurship. EE, MEch Also has
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;mefti&#x2F;&quot;&gt;MEFTI&lt;&#x2F;a&gt;, MIT
+&lt;a href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;mefti&#x2F;&quot;&gt;MEFTI&lt;&#x2F;a&gt;, MIT
 Entrepreneurship and FinTech Integrator, August 25 to September first.
 Useful for going abroad and working with people from a different
 culture.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;6-928-16-990-15-s67&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;grad&quot;&gt;6.928, 16.990, 15.s67&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;6-928-16-990-15-s67&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;grad&quot;&gt;6.928, 16.990, 15.s67&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Leading creative teams.&lt;br &#x2F;&gt;
 Learn to build high performing teams. Useful for startups even though it
 is not focused in startups per se. Also useful to become a more
@@ -512,8 +512,8 @@ impactful engineer and professional.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;gordon-mit-engineering-leadership-program&quot;&gt;Gordon-MIT engineering leadership program.&lt;&#x2F;h1&gt;
 &lt;p&gt;Year long program for next year. GEL program 18 units total. They
 recommend registering for
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;students&#x2F;engineering-innovation-design&quot;&gt;ESD.051,6.902, Engineering Innovation &amp;amp; Design&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;https-lemelson-mit-edu-studentprize-lemelson-mit-student&quot;&gt;[[&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&quot;&gt;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&lt;&#x2F;a&gt;][Lemelson-MIT student&lt;&#x2F;h2&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;students&#x2F;engineering-innovation-design&quot;&gt;ESD.051,6.902, Engineering Innovation &amp;amp; Design&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;https-lemelson-mit-edu-studentprize-lemelson-mit-student&quot;&gt;[[&lt;a href=&quot;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&quot;&gt;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&lt;&#x2F;a&gt;][Lemelson-MIT student&lt;&#x2F;h2&gt;
 &lt;p&gt;prize]].&lt;&#x2F;p&gt;
 &lt;p&gt;:CUSTOM_ID: lemelson-mit-student-prize.&lt;&#x2F;p&gt;
 &lt;p&gt;Celebrating inventions. Focuses on tested prototype of tech based
@@ -532,25 +532,25 @@ time. The mentors assign themselves to the students. MIT venture
 mentoring commits to a longterm relationship (after you graduate we are
 still here for you). They also have rules for the advisors, so you don&#x27;t
 have to worry about advisors with hidden agendas.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;boston-seed-capital&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.bostonseed.com&#x2F;&quot;&gt;Boston seed capital&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;boston-seed-capital&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.bostonseed.com&#x2F;&quot;&gt;Boston seed capital&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Angel round. Seed round. Go to investors that usually focus in your
 area. They usually focus in consumer digitals (ai, etc). Usually
 software. Resources are CEO experts.
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;bostontechguide.com&#x2F;&quot;&gt;Hitchiker guide to boston mentors&lt;&#x2F;a&gt;. Most
+&lt;a href=&quot;http:&#x2F;&#x2F;bostontechguide.com&#x2F;&quot;&gt;Hitchiker guide to boston mentors&lt;&#x2F;a&gt;. Most
 amazing angel mentors.&lt;&#x2F;p&gt;
 &lt;p&gt;Social events. Easier to go as an mit student. Boston is one of the best
 cities to start a venture.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mit-ideas-global-challenge&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;studentlife.mit.edu&#x2F;ideas&quot;&gt;MIT ideas global challenge&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;mit-ideas-global-challenge&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;studentlife.mit.edu&#x2F;ideas&quot;&gt;MIT ideas global challenge&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Positive impact in the world. Ideas global challenge. Social
 entrepreneurship. Up to 15k.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;joe-caruso&quot;&gt;Joe Caruso&lt;&#x2F;h1&gt;
 &lt;p&gt;Advocate for entrepreneurs. General input, generalist, brainstorm, talk
 about founder and technology issues. Very generic resource. jcaruso at
 bantam group.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;maschallenge-startup-benefits&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;masschallenge.org&#x2F;startup&#x2F;good-benefits&quot;&gt;Maschallenge startup benefits.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;maschallenge-startup-benefits&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;masschallenge.org&#x2F;startup&#x2F;good-benefits&quot;&gt;Maschallenge startup benefits.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Non profit. 0 equity. 1.5M support. Startups that are ready. Waterhole
 for the local innovation community.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;cic&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;cic.com&#x2F;&quot;&gt;CIC&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;cic&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cic.com&#x2F;&quot;&gt;CIC&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Cambridge innovation center. Kendalsquare sloanm grad. Broadway and
 third. one of the Densest cluster of startups in the world. Host 100
 events per month. Cic.com. Blog , podcast and newsletter.&lt;&#x2F;p&gt;
@@ -567,10 +567,10 @@ events per month. Cic.com. Blog , podcast and newsletter.&lt;&#x2F;p&gt;
         <link rel="alternate" href="/multi-audio-in-development.html" type="text/html"/>
         <id>/multi-audio-in-development.html</id>
         
-        <content type="html">&lt;p&gt;I enjoy &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Binaural_recording&quot;&gt;binaural&lt;&#x2F;a&gt;
+        <content type="html">&lt;p&gt;I enjoy &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Binaural_recording&quot;&gt;binaural&lt;&#x2F;a&gt;
 audio. If you don&#x27;t know what I&#x27;m talking about, I&#x27;d recommend putting
 on headphones and listening to the
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IUDTlvagjJA&quot;&gt;virtual barber shop&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IUDTlvagjJA&quot;&gt;virtual barber shop&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;what-makes-audio-binaural&quot;&gt;What makes audio binaural?&lt;&#x2F;h1&gt;
 &lt;p&gt;In few words, you can detect from which location a sound is coming from
 by detecting the delay (difference in phase) between the ears, which can
@@ -582,26 +582,26 @@ direction dependent; as well as the difference in audio intensity
 between the ears.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;programs-that-use-hrtf&quot;&gt;Programs that use HRTF&lt;&#x2F;h1&gt;
 &lt;p&gt;The response of each ear based on the direction of the sound is called
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Head-related_transfer_function&quot;&gt;Head-related transfer function (hrtf)&lt;&#x2F;a&gt;. Multiple programs can make use of HRTF in
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Head-related_transfer_function&quot;&gt;Head-related transfer function (hrtf)&lt;&#x2F;a&gt;. Multiple programs can make use of HRTF in
 order to localize a sound source. Games that use
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.openal.org&#x2F;&quot;&gt;openal&lt;&#x2F;a&gt; usually have a setting to activate
+&lt;a href=&quot;https:&#x2F;&#x2F;www.openal.org&#x2F;&quot;&gt;openal&lt;&#x2F;a&gt; usually have a setting to activate
 HRTF if you are using headphones. One example of such game is Minecraft.
 Another program is
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;linux_gaming&#x2F;comments&#x2F;2ot5ov&#x2F;enable_system_wide_hrtf_with_pulseaudio&#x2F;&quot;&gt;pulseaudio&lt;&#x2F;a&gt;.
+&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;linux_gaming&#x2F;comments&#x2F;2ot5ov&#x2F;enable_system_wide_hrtf_with_pulseaudio&#x2F;&quot;&gt;pulseaudio&lt;&#x2F;a&gt;.
 It allows you to convert 5.1 audio into binaural audio by localizing the
 sound that would come from each of the speakers. This makes watching
 movies with a headphone a fairly pleasing experience.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;basic-idea&quot;&gt;Basic idea&lt;&#x2F;h1&gt;
 &lt;p&gt;It is easy to set up audio pipes using jack. I usually install
-&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt; to do
+&lt;a href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt; to do
 so, since it is extremely user friendly. Therefore, if I can setup a
 simple jack application that uses a simple GUI to decide the location of
 an audio source and then play the audio on headphones, it should allow
 me to do things such as multiaudio or having some sound sound like it is
 moving around me.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;about-the-tools&quot;&gt;About the tools&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;jack&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.jackaudio.org&#x2F;&quot;&gt;JACK&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;(&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;jack&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.jackaudio.org&#x2F;&quot;&gt;JACK&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;(&lt;a href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;:CUSTOM_ID: jack-cadence&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;JACK (JACK Audio Connection Kit) refers to an API and two
@@ -618,7 +618,7 @@ client that can take interface with the audio from other applications.&lt;&#x2F;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Cadence is a set of tools that make using JACK much easier. I have never
 been able to install JACK, nor use it without installing Cadence.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;zita-convolver&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;directory.fsf.org&#x2F;wiki&#x2F;Zita-convolver&quot;&gt;Zita Convolver&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;zita-convolver&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;directory.fsf.org&#x2F;wiki&#x2F;Zita-convolver&quot;&gt;Zita Convolver&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Install from libzita-convolver.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zita convolver is a C++ library implementing a real-time convolution
@@ -627,7 +627,7 @@ sizes to provide both low delay and efficient CPU use.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;In other words, Zita Convolver is a very fast and simple way to apply an
 impulse response to audio!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;qt&quot;&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.qt.io&#x2F;&quot;&gt;QT&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;qt&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.qt.io&#x2F;&quot;&gt;QT&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I wanted the tool to have a gui. QT is one that is cross-platform.&lt;&#x2F;p&gt;
 </content>
         

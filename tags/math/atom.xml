@@ -17,7 +17,7 @@
         <link rel="alternate" href="/some-intuition-for-geometric-algebra-product-contractions-and-expansions.html" type="text/html"/>
         <id>/some-intuition-for-geometric-algebra-product-contractions-and-expansions.html</id>
         
-        <content type="html">&lt;p&gt;One of the best materials for learning about inner product contractions is, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;2842332_The_Inner_Products_of_Geometric_Algebra&quot;&gt;The Inner Products of Geometric Algebra&lt;&#x2F;a&gt;, by Leo Dorst.
+        <content type="html">&lt;p&gt;One of the best materials for learning about inner product contractions is, &lt;a href=&quot;https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;2842332_The_Inner_Products_of_Geometric_Algebra&quot;&gt;The Inner Products of Geometric Algebra&lt;&#x2F;a&gt;, by Leo Dorst.
 Here I&#x27;ll write some intuition to help you remember those results.&lt;&#x2F;p&gt;
 &lt;p&gt;First, notice that every product is linear, therefore we can always think about what happens in a product by thinking about what happens with the orthogonal and parallel components. We will use the term &amp;quot;dimension&amp;quot;, in a very informal way. For example, if I have the vector $e_1$ and the vector $e_2$, and we &amp;quot;sum&amp;quot; their dimensions, we obtain $e_1 \wedge e_2$. If we have the blade $e_1 \wedge e_2$ and we remove the dimension $e^1$, we obtain $e^2$. &lt;&#x2F;p&gt;
 &lt;h1 id=&quot;a-cdot-b-wedge-c&quot;&gt;$$a \cdot (B \wedge C)$$&lt;&#x2F;h1&gt;
