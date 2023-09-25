@@ -5,7 +5,7 @@
     <link href="/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-08-26T00:00:00+00:00</updated>
+    <updated>2023-09-24T00:00:00+00:00</updated>
     <id>/atom.xml</id>
     <entry xml:lang="en">
         <title>Error compiling Openssl for android</title>
@@ -74,7 +74,7 @@ sudo apt-get install libvulkan1 libvulkan1:i386
         <id>/winding-number-in-geometric-algebra.html</id>
         
         <content type="html">&lt;p&gt;From the wikipedia, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Winding_number#Complex_analysis&quot;&gt;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Winding_number#Complex_analysis&lt;&#x2F;a&gt;, we can see the definition of winding number in complex analysis. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;2-dimensions&quot;&gt;2 dimensions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;2_dimensions&quot;&gt;2 dimensions&lt;&#x2F;h1&gt;
 &lt;p&gt;And so we can adapt it to geometric algebra in 2 dimensions.&lt;&#x2F;p&gt;
 &lt;p&gt;Let $\partial M$ be a curve (we are calling it $\delta M$ because we will later perform the analysis using the fundamental theorem of calculus for geometric algebra), and let $j$, be the pseudo scalar in 2 dimensions.&lt;&#x2F;p&gt;
 &lt;p&gt;The winding number is:
@@ -88,7 +88,7 @@ $$\frac{1}{2\pi j} \oint_{\partial M}  d\mathbf{x} \frac{\mathbf{x}}{|x|^{-2}} =
 0,              &amp;amp; \text{otherwise}
 \end{cases}
 $$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;more-dimensions&quot;&gt;More dimensions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;More_dimensions&quot;&gt;More dimensions&lt;&#x2F;h1&gt;
 &lt;p&gt;We can extend this to more dimensions. Let $n$ be the dimensions, and let $A_n$ be the $n-1$ dimensional area of the $n$ dimensional unit sphere. Then:
 $$\frac{1}{A_n}\oint_{\partial M}  d\mathbf{x^{n-1}} \frac{\mathbf{x}}{|x|^n} = \int_{ M}  d\mathbf{x^n} \delta_\mathbf{x}(\mathbf{x}) = \begin{cases}
 1,&amp;amp; \text{if the volume includes the origin}\
@@ -96,7 +96,7 @@ $$\frac{1}{A_n}\oint_{\partial M}  d\mathbf{x^{n-1}} \frac{\mathbf{x}}{|x|^n} = 
 \end{cases}
 $$&lt;&#x2F;p&gt;
 &lt;p&gt;for 3 dimensions you should recognize this equation from the electrical field of a point charge in the origin.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;using-this-with-functions&quot;&gt;Using this with functions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Using_this_with_functions&quot;&gt;Using this with functions&lt;&#x2F;h1&gt;
 &lt;p&gt;Let say you wanna find the $0$s of a function, and you are using the winding number algorithm &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=b7FxPsqfkOY&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=b7FxPsqfkOY&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;TODO&lt;&#x2F;p&gt;
 </content>
@@ -115,7 +115,7 @@ $$&lt;&#x2F;p&gt;
         <content type="html">&lt;p&gt;One of the best materials for learning about inner product contractions is, &lt;a href=&quot;https:&#x2F;&#x2F;www.researchgate.net&#x2F;publication&#x2F;2842332_The_Inner_Products_of_Geometric_Algebra&quot;&gt;The Inner Products of Geometric Algebra&lt;&#x2F;a&gt;, by Leo Dorst.
 Here I&#x27;ll write some intuition to help you remember those results.&lt;&#x2F;p&gt;
 &lt;p&gt;First, notice that every product is linear, therefore we can always think about what happens in a product by thinking about what happens with the orthogonal and parallel components. We will use the term &amp;quot;dimension&amp;quot;, in a very informal way. For example, if I have the vector $e_1$ and the vector $e_2$, and we &amp;quot;sum&amp;quot; their dimensions, we obtain $e_1 \wedge e_2$. If we have the blade $e_1 \wedge e_2$ and we remove the dimension $e^1$, we obtain $e^2$. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;a-cdot-b-wedge-c&quot;&gt;$$a \cdot (B \wedge C)$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;$$a_\cdot_(B_\wedge_C)$$&quot;&gt;$$a \cdot (B \wedge C)$$&lt;&#x2F;h1&gt;
 &lt;p&gt;Lets start with:
 $$a \cdot (B \wedge C)$$ , where $B$ and $C$ are $k$-blades with $k\ge1$. What this formula is saying, intuitively, is that we take 2 blades, $B$ and $C$, we add their dimensions, to get a blade of higher dimension, and then we remove the dimensions of $a$.&lt;&#x2F;p&gt;
 &lt;p&gt;For the product to not be null. at most one of $B$ or $C$ has the dimension of $a$. If it is $B$, then the formula is equivalent to 
@@ -128,7 +128,7 @@ where $\hat{B}$ is the grade inversion of B, i.e. equal to $-B$, if $B$ is odd. 
 &lt;p&gt;$$a \cdot (B \wedge C) = (a \cdot B) \wedge C) + \hat{B} \wedge (a \cdot C)$$&lt;&#x2F;p&gt;
 &lt;p&gt;In other words, when taking the dot product of a vector with a blade, we can just &amp;quot;put&amp;quot; the vector next to the terms it would cancel, while taking into account grade inversion. For exmple:&lt;&#x2F;p&gt;
 &lt;p&gt;$$e_1 \cdot(e_2 \wedge e^1 \wedge e^3) = - e_2 \wedge (e_1 \cdot e^1 \wedge e^3) = -e_2 \wedge e_3$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;contraction&quot;&gt;Contraction&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Contraction&quot;&gt;Contraction&lt;&#x2F;h1&gt;
 &lt;p&gt;The inner product&#x2F; dot product are slightly ambiguous. If we have $(A \cdot B)$, we don&#x27;t know if we are removing dimensions from $B$ or from $A$, i.e. supposing that $A$ is an $a$-blade and $B$ is a  $b$-blade, we don&#x27;t know if  $(A \cdot B)$ is an $a-b$-blade or $b-a$-blade, since we don&#x27;t know which of them has the higher dimensions. So we define the left contraction inner product $A \lrcorner B$  to be removing the dimensions of $A$ from $B$, i.e. an $a-b$-blade (or 0, if $b&amp;gt;a$.&lt;&#x2F;p&gt;
 &lt;p&gt;With this, we can think about:
 $$(A \wedge B) \lrcorner C =(A \lrcorner (B \lrcorner C))  $$
@@ -166,7 +166,7 @@ i.e. removing the dimensions of both $A$ and $B$ from $C$ is the same as removin
         <id>/pao-de-queijo-recipe-brazilian-cheese-bread.html</id>
         
         <content type="html">&lt;p&gt;Brazilian cheese bread is a super forgiving recipe: as long as you use tapioca flour and you don&#x27;t underbake it, you can change the ingredients to your hearts content.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;lazy-recipe&quot;&gt;Lazy recipe&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Lazy_recipe&quot;&gt;Lazy recipe&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;about 900g of tapioca flour&#x2F;starch (if you have the option get &amp;quot;polvilho azedo&amp;quot;, i.e. fermented tapioca starch, since it hydrates better). You can buy this at any Brazilian market&lt;&#x2F;li&gt;
 &lt;li&gt;2 cups of milk (hydration. Can be substituted by water)&lt;&#x2F;li&gt;
@@ -181,7 +181,7 @@ i.e. removing the dimensions of both $A$ and $B$ from $C$ is the same as removin
 &lt;p&gt;Roll into balls (they can be tiny, or medium sized). Freeze them for later use, or bake them.&lt;&#x2F;p&gt;
 &lt;p&gt;Bake them until the surface has hardened (it gets a bit brownish), between 350 and 375F. Small ones take 20 minutes, very large ones can take up to 40 minutes.&lt;&#x2F;p&gt;
 &lt;p&gt;If baking a frozen one, add 2 minutes to the time that it took to bake the unfrozen one.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;slightly-better-recipe&quot;&gt;Slightly better recipe&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Slightly_better_recipe&quot;&gt;Slightly better recipe&lt;&#x2F;h1&gt;
 &lt;p&gt;(all substitutions above are still valid)&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;700g of tapioca starch &#x2F; polvilho azedo&lt;&#x2F;li&gt;
@@ -239,16 +239,16 @@ sudo apt install lsp-plugins
         <id>/projects-ideas.html</id>
         
         <content type="html">&lt;p&gt;A very disorganized list of projects I want to work on, together with notes about them (mostly links with related info)&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;cutting-vegetables-with-blood&quot;&gt;Cutting vegetables with blood&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cutting_vegetables_with_blood&quot;&gt;Cutting vegetables with blood&lt;&#x2F;h1&gt;
 &lt;p&gt;Pictures of knives cutting vegetable while drenched in fake blood. No real purpose for this, except that I think it would be cool&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;tep-as-a-pirateshipe-navigating-through-places&quot;&gt;Tep as a pirateshipe navigating through places:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Tep_as_a_pirateshipe_navigating_through_places:&quot;&gt;Tep as a pirateshipe navigating through places:&lt;&#x2F;h1&gt;
 &lt;p&gt;Tep has a helm in a room that looks like a pirateship. It would be really cool if it was connected to something online, such that it seemed that tEp was a real pirate ship.&lt;&#x2F;p&gt;
 &lt;p&gt;The idea would be to have a website using open street map together with open layers &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23722133&quot;&gt;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=23722133&lt;&#x2F;a&gt;
 maybe use open layers on toip of open street map&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;cli-picture-tools-with-gui&quot;&gt;Cli picture tools with gui&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cli_picture_tools_with_gui&quot;&gt;Cli picture tools with gui&lt;&#x2F;h1&gt;
 &lt;p&gt;There are lots of really cool picture effects that only have a terminal interface.  It would be exciting to have a program that could be used for automatically generating previews for those tools by running it with smaller image sizes.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;primitive-images&quot;&gt;Primitive images:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Primitive_images:&quot;&gt;Primitive images:&lt;&#x2F;h1&gt;
 &lt;p&gt;This project is really cool, but I don&#x27;t like the loss function used by it, so instead use a laplacian pyramid loss for the gradient descent.
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;fogleman&#x2F;primitive&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;fogleman&#x2F;primitive&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;So the same project, but instead of using this loss function, use one based on laplacian pyramids contrast as done by macrofusion.&lt;&#x2F;p&gt;
@@ -258,7 +258,7 @@ maybe use open layers on toip of open street map&lt;&#x2F;p&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;silvia-odwyer&#x2F;gld&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;silvia-odwyer&#x2F;gld&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Probably use laplacian pyramid loss for the descent. There are some articles about it online.&lt;&#x2F;p&gt;
 &lt;p&gt;this one does &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;music-lyrics-video-for-danger-line&quot;&gt;Music lyrics video for danger line&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Music_lyrics_video_for_danger_line&quot;&gt;Music lyrics video for danger line&lt;&#x2F;h1&gt;
 &lt;p&gt;The lyrics are displayed while moving around a &amp;quot;red line&amp;quot; . The &amp;quot;danger line&amp;quot; is the body outline of someone who died (red), but you only discover it is the outline of the body at the end of the song.&lt;&#x2F;p&gt;
 &lt;p&gt;Throughout the song the lyrics go around the outline&lt;&#x2F;p&gt;
 &lt;p&gt;Until the very end, they are generally outside the outline, but certain words can be on the boundary (the inside of the boundary represents death). Some words might be in the other side of the boundary.&lt;&#x2F;p&gt;
@@ -266,7 +266,7 @@ maybe use open layers on toip of open street map&lt;&#x2F;p&gt;
 &lt;p&gt;Maybe some effect of heartbeats ecg during the solos.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you are inside the outline, things get a lot redder, like red border.&lt;&#x2F;p&gt;
 &lt;p&gt;Daugther brings you further from the line&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;3d-online-game-of-walking-around-east-campus-with-the-murals&quot;&gt;3d online game of walking around east campus with the murals&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;3d_online_game_of_walking_around_east_campus_with_the_murals&quot;&gt;3d online game of walking around east campus with the murals&lt;&#x2F;h1&gt;
 &lt;p&gt;Maybe allow people to upload pictures?&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;d really enjoy to have a 3d representation of the inside of EastCampus, with all the murals and all.
 &lt;a href=&quot;https:&#x2F;&#x2F;learn.display.land&#x2F;capturing-reality&quot;&gt;https:&#x2F;&#x2F;learn.display.land&#x2F;capturing-reality&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -275,7 +275,7 @@ maybe use open layers on toip of open street map&lt;&#x2F;p&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;ar&#x2F;develop&#x2F;java&#x2F;quickstart&quot;&gt;https:&#x2F;&#x2F;developers.google.com&#x2F;ar&#x2F;develop&#x2F;java&#x2F;quickstart&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;3dscanexpert.com&#x2F;scann3d-android-photogrammetry-app-review&#x2F;&quot;&gt;https:&#x2F;&#x2F;3dscanexpert.com&#x2F;scann3d-android-photogrammetry-app-review&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;3dscanexpert.com&#x2F;free-3d-scanning-video-smartphone&#x2F;&quot;&gt;https:&#x2F;&#x2F;3dscanexpert.com&#x2F;free-3d-scanning-video-smartphone&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;route-panorama-on-android&quot;&gt;Route panorama on android&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Route_panorama_on_android&quot;&gt;Route panorama on android&lt;&#x2F;h1&gt;
 &lt;p&gt;I want to implement an app that performs route panoramas on android.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are some link ideas.
 &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Route_panorama&quot;&gt;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Route_panorama&lt;&#x2F;a&gt;
@@ -284,16 +284,16 @@ maybe use open layers on toip of open street map&lt;&#x2F;p&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Strip_photography&quot;&gt;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Strip_photography&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;duanhong169&#x2F;Camera&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;duanhong169&#x2F;Camera&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;CameraKit&#x2F;camerakit-android&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;CameraKit&#x2F;camerakit-android&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;dating-website-where-you-ship-your-friends&quot;&gt;Dating website where you ship your friends&lt;&#x2F;h1&gt;
-&lt;h1 id=&quot;super-resolution-photo-app-by-upsampling-alignning-and-enfusing-or-merging-for-astrophotography&quot;&gt;Super resolution photo app by upsampling alignning and enfusing or merging, for astrophotography&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Dating_website_where_you_ship_your_friends&quot;&gt;Dating website where you ship your friends&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Super_resolution_photo_app_by_upsampling_alignning_and_enfusing_or_merging,_for_astrophotography&quot;&gt;Super resolution photo app by upsampling alignning and enfusing or merging, for astrophotography&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;petapixel.com&#x2F;2015&#x2F;02&#x2F;21&#x2F;a-practical-guide-to-creating-superresolution-photos-with-photoshop&#x2F;&quot;&gt;https:&#x2F;&#x2F;petapixel.com&#x2F;2015&#x2F;02&#x2F;21&#x2F;a-practical-guide-to-creating-superresolution-photos-with-photoshop&#x2F;&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;groups.google.com&#x2F;g&#x2F;hugin-ptx&#x2F;c&#x2F;ijOCcBX7me8&quot;&gt;https:&#x2F;&#x2F;groups.google.com&#x2F;g&#x2F;hugin-ptx&#x2F;c&#x2F;ijOCcBX7me8&lt;&#x2F;a&gt;
 &lt;a href=&quot;http:&#x2F;&#x2F;www.astrosurf.com&#x2F;cidadao&#x2F;super.htm&quot;&gt;http:&#x2F;&#x2F;www.astrosurf.com&#x2F;cidadao&#x2F;super.htm&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;selfie-with-longer-focal-distance-by-combining-multiple-close-shots&quot;&gt;selfie with longer focal distance by combining multiple close shots&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;selfie_with_longer_focal_distance_by_combining_multiple_close_shots&quot;&gt;selfie with longer focal distance by combining multiple close shots&lt;&#x2F;h1&gt;
 &lt;p&gt;By scanning your face (similarly to a route panorama), fake your lens to have a longer focal distance, while improving blurring the background&lt;&#x2F;p&gt;
 &lt;p&gt;idea: use gyroscope to put a dot on the screen that force the video to stay in the same plane. Use maybe motion tracking:
 &lt;a href=&quot;https:&#x2F;&#x2F;source.android.com&#x2F;devices&#x2F;camera&#x2F;motion-tracking&quot;&gt;https:&#x2F;&#x2F;source.android.com&#x2F;devices&#x2F;camera&#x2F;motion-tracking&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;photogrammetry-of-street-art-tutorial&quot;&gt;Photogrammetry of street art tutorial&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Photogrammetry_of_street_art_tutorial&quot;&gt;Photogrammetry of street art tutorial&lt;&#x2F;h1&gt;
 &lt;p&gt;start:
 &lt;a href=&quot;https:&#x2F;&#x2F;medium.com&#x2F;realities-io&#x2F;getting-started-with-photogrammetry-d0a6ee40cb72&quot;&gt;https:&#x2F;&#x2F;medium.com&#x2F;realities-io&#x2F;getting-started-with-photogrammetry-d0a6ee40cb72&lt;&#x2F;a&gt;
 video for the above:
@@ -319,9 +319,9 @@ Idea: convert rectangle to circle conformally, followed by identifying it with o
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mipav.cit.nih.gov&#x2F;pubwiki&#x2F;index.php&#x2F;Transform:_Conformal_Mapping_Algorithms#Transformation:_Circle_to_Rectangle&quot;&gt;https:&#x2F;&#x2F;mipav.cit.nih.gov&#x2F;pubwiki&#x2F;index.php&#x2F;Transform:_Conformal_Mapping_Algorithms#Transformation:_Circle_to_Rectangle&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.osti.gov&#x2F;servlets&#x2F;purl&#x2F;4800477&quot;&gt;https:&#x2F;&#x2F;www.osti.gov&#x2F;servlets&#x2F;purl&#x2F;4800477&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;www.osti.gov&#x2F;biblio&#x2F;4800477-conformal-mapping-circle-onto-rectangle&quot;&gt;https:&#x2F;&#x2F;www.osti.gov&#x2F;biblio&#x2F;4800477-conformal-mapping-circle-onto-rectangle&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;plausible-analytics-for-mit-sipb&quot;&gt;Plausible analytics for MIT&#x2F;sipb&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Plausible_analytics_for_MIT&#x2F;sipb&quot;&gt;Plausible analytics for MIT&#x2F;sipb&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;plausible.io&#x2F;blog&#x2F;self-hosted-web-analytics-beta&quot;&gt;https:&#x2F;&#x2F;plausible.io&#x2F;blog&#x2F;self-hosted-web-analytics-beta&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;make-pictures-boring&quot;&gt;Make pictures boring&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Make_pictures_boring&quot;&gt;Make pictures boring&lt;&#x2F;h1&gt;
 &lt;p&gt;Detects what is relevant in a picture and removes it.
 &lt;a href=&quot;https:&#x2F;&#x2F;www.immersivelimit.com&#x2F;tutorials&#x2F;yolact-with-google-colab&quot;&gt;https:&#x2F;&#x2F;www.immersivelimit.com&#x2F;tutorials&#x2F;yolact-with-google-colab&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;kharshit.github.io&#x2F;blog&#x2F;2019&#x2F;08&#x2F;23&#x2F;quick-intro-to-instance-segmentation&quot;&gt;https:&#x2F;&#x2F;kharshit.github.io&#x2F;blog&#x2F;2019&#x2F;08&#x2F;23&#x2F;quick-intro-to-instance-segmentation&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -329,7 +329,7 @@ Idea: convert rectangle to circle conformally, followed by identifying it with o
 &lt;p&gt;The use this to fill it up:
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zavolokas&#x2F;Inpainting&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;zavolokas&#x2F;Inpainting&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;YuanTingHsieh&#x2F;Image_Completion&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;YuanTingHsieh&#x2F;Image_Completion&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;quaternions-exploration&quot;&gt;Quaternions exploration&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Quaternions_exploration&quot;&gt;Quaternions exploration&lt;&#x2F;h1&gt;
 &lt;p&gt;Have a simple 3d scene. Apply quaternion functions to the positions of the points. Find an equivalent to droste effect but in 3d space&lt;&#x2F;p&gt;
 &lt;p&gt;Similar to this demo &lt;a href=&quot;https:&#x2F;&#x2F;montaga.github.io&#x2F;spherical&#x2F;&quot;&gt;https:&#x2F;&#x2F;montaga.github.io&#x2F;spherical&#x2F;&lt;&#x2F;a&gt;
 So more like this: &lt;a href=&quot;https:&#x2F;&#x2F;eater.net&#x2F;quaternions&#x2F;video&#x2F;intro&quot;&gt;https:&#x2F;&#x2F;eater.net&#x2F;quaternions&#x2F;video&#x2F;intro&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -343,7 +343,7 @@ So more like this: &lt;a href=&quot;https:&#x2F;&#x2F;eater.net&#x2F;quaternions
 &lt;p&gt;Also, I want everything to happen on the surface of a 4d sphere.&lt;&#x2F;p&gt;
 &lt;p&gt;Just more information about quarenions &lt;a href=&quot;https:&#x2F;&#x2F;marctenbosch.com&#x2F;quaternions&#x2F;&quot;&gt;https:&#x2F;&#x2F;marctenbosch.com&#x2F;quaternions&#x2F;&lt;&#x2F;a&gt; &amp;lt; maybe quaternions are trash&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.01396&quot;&gt;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1605.01396&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;exploring-surface-of-4d-objects&quot;&gt;Exploring surface of 4d objects.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Exploring_surface_of_4d_objects.&quot;&gt;Exploring surface of 4d objects.&lt;&#x2F;h2&gt;
 &lt;p&gt;You yourself is like a cube, so you see infinite copies of you on the distance&lt;&#x2F;p&gt;
 &lt;p&gt;maybe use a non euclidean ray tracer
 &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YvU-srHhQxw&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YvU-srHhQxw&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -353,32 +353,32 @@ So more like this: &lt;a href=&quot;https:&#x2F;&#x2F;eater.net&#x2F;quaternions
 &lt;p&gt;or maybe like: &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2002.09533&quot;&gt;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2002.09533&lt;&#x2F;a&gt;  -&amp;gt;&amp;gt; sounds really really promising &#x2F; seems to be already doing it. &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;user&#x2F;ZenoTheRogue&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;user&#x2F;ZenoTheRogue&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;ww.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;88b6ix&#x2F;euclider_noneuclidean_raytracing_prototype&#x2F;&quot;&gt;https:&#x2F;&#x2F;ww.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;88b6ix&#x2F;euclider_noneuclidean_raytracing_prototype&#x2F;&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;zenorogue&#x2F;status&#x2F;1245367263936512001&quot;&gt;https:&#x2F;&#x2F;twitter.com&#x2F;zenorogue&#x2F;status&#x2F;1245367263936512001&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;just-add-some-posts-playing-with-js-here&quot;&gt;Just add some posts playing with js here&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Just_add_some_posts_playing_with_js_here&quot;&gt;Just add some posts playing with js here&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ew.reddit.com&#x2F;r&#x2F;orgmode&#x2F;comments&#x2F;5bi6ku&#x2F;tip_for_exporting_javascript_source_block_to&#x2F;&quot;&gt;https:&#x2F;&#x2F;ew.reddit.com&#x2F;r&#x2F;orgmode&#x2F;comments&#x2F;5bi6ku&#x2F;tip_for_exporting_javascript_source_block_to&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;make-music-using-this-imo-problem-solution&quot;&gt;Make music using this imo problem solution&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Make_music_using_this_imo_problem_solution&quot;&gt;Make music using this imo problem solution&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=M64HUIJFTZM&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=M64HUIJFTZM&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;toilet-measure-weight&quot;&gt;toilet measure weight&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;toilet_measure_weight&quot;&gt;toilet measure weight&lt;&#x2F;h1&gt;
 &lt;p&gt;You sit on the toilet. It shows you your weight.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;practice-retouching-face-images&quot;&gt;Practice retouching face images&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Practice_retouching_face_images&quot;&gt;Practice retouching face images&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;patdavid.net&#x2F;2011&#x2F;12&#x2F;getting-around-in-gimp-skin-retouching.html&quot;&gt;https:&#x2F;&#x2F;patdavid.net&#x2F;2011&#x2F;12&#x2F;getting-around-in-gimp-skin-retouching.html&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;patdavid.net&#x2F;2013&#x2F;08&#x2F;an-open-source-headshot-ronni_21.html&quot;&gt;https:&#x2F;&#x2F;patdavid.net&#x2F;2013&#x2F;08&#x2F;an-open-source-headshot-ronni_21.html&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;pagination-for-my-blog&quot;&gt;Pagination for my blog&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Pagination_for_my_blog&quot;&gt;Pagination for my blog&lt;&#x2F;h1&gt;
 &lt;p&gt;Pagination for this org mode blog&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;rss-for-this-blog&quot;&gt;RSS for this blog&lt;&#x2F;h1&gt;
-&lt;h1 id=&quot;better-theme-for-this-blog-make-it-not-ugly&quot;&gt;Better theme for this blog, make it not ugly&lt;&#x2F;h1&gt;
-&lt;h1 id=&quot;use-seam-carving-to-split-a-image-into-puzzle-pieces-for-cutting&quot;&gt;Use seam carving to split a image into puzzle pieces for cutting&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;RSS_for_this_blog&quot;&gt;RSS for this blog&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Better_theme_for_this_blog,_make_it_not_ugly&quot;&gt;Better theme for this blog, make it not ugly&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Use_seam_carving_to_split_a_image_into_puzzle_pieces_for_cutting&quot;&gt;Use seam carving to split a image into puzzle pieces for cutting&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6NcIJXTlugc&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=6NcIJXTlugc&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;add-my-emacs-packages-to-melpa&quot;&gt;Add my emacs packages to melpa&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Add_my_emacs_packages_to_melpa&quot;&gt;Add my emacs packages to melpa&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;melpa&#x2F;melpa&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;melpa&#x2F;melpa&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;random-notes&quot;&gt;Random notes&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;ar-core-for-android&quot;&gt;AR core for android&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Random_notes&quot;&gt;Random notes&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;AR_core_for_android&quot;&gt;AR core for android&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Mzr3MVzSjSM&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Mzr3MVzSjSM&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;lvonasek&#x2F;tango&#x2F;wiki&#x2F;3D-Scanner-for-ARcore&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;lvonasek&#x2F;tango&#x2F;wiki&#x2F;3D-Scanner-for-ARcore&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;googlesamples&#x2F;arcore-depth-lab&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;googlesamples&#x2F;arcore-depth-lab&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Mzr3MVzSjSM&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Mzr3MVzSjSM&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;play-with-some-pre-trained-cnn&quot;&gt;Play with some pre trained CNN&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Play_with_some_pre_trained_CNN&quot;&gt;Play with some pre trained CNN&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.analyticsvidhya.com&#x2F;blog&#x2F;2018&#x2F;07&#x2F;top-10-pretrained-models-get-started-deep-learning-part-1-computer-vision&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.analyticsvidhya.com&#x2F;blog&#x2F;2018&#x2F;07&#x2F;top-10-pretrained-models-get-started-deep-learning-part-1-computer-vision&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;click-to-expand-table-of-contents&quot;&gt;Click to expand table of contents&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Click_to_expand_table_of_contents&quot;&gt;Click to expand table of contents&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;peternguyen&#x2F;pen&#x2F;hICga&quot;&gt;https:&#x2F;&#x2F;codepen.io&#x2F;peternguyen&#x2F;pen&#x2F;hICga&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;From: &lt;a href=&quot;https:&#x2F;&#x2F;codepen.io&#x2F;peternguyen&#x2F;pen&#x2F;hICga&quot;&gt;https:&#x2F;&#x2F;codepen.io&#x2F;peternguyen&#x2F;pen&#x2F;hICga&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt; &amp;lt;input id=&amp;quot;toggle&amp;quot; style=&amp;quot;display: none; visibility: hidden;&amp;quot; type=&amp;quot;checkbox&amp;quot; checked&amp;gt;
@@ -463,9 +463,9 @@ So more like this: &lt;a href=&quot;https:&#x2F;&#x2F;eater.net&#x2F;quaternions
   display: block;
 }
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;better-toc-for-tags-page&quot;&gt;Better TOC for tags page&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Better_TOC_for_tags_page&quot;&gt;Better TOC for tags page&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.lycarter.com&#x2F;tags&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.lycarter.com&#x2F;tags&#x2F;&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;keep-state-about-displaying-comments&quot;&gt;Keep state about displaying comments&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Keep_state_about_displaying_comments&quot;&gt;Keep state about displaying comments&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;API&#x2F;Web_Storage_API&quot;&gt;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;API&#x2F;Web_Storage_API&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
         
@@ -841,15 +841,15 @@ pre {
         
         <content type="html">&lt;p&gt;Until 2010 there were no website in Brazil one could access to learn about what &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;International_Science_Olympiad&quot;&gt;science olympiads&lt;&#x2F;a&gt; existed nor how to study for them. The only way to learn about the existence of the competitions was to randomly search the internet until you found one you didn&#x27;t know about, or to study in a large school that prepared students for those competitions. However, even if you did find out about those competitions, there was no way for one to discover what books they should study or how to better prepare for the science olympiads. And for the small schools admins, it was hard for them to keep track of all the different dates where the competitions happened or when they should register for them!&lt;&#x2F;p&gt;
 &lt;p&gt;I was from a small town, and this had directly affected me, since I had to learn about the different competitions and prepare for them on my own. Because of this, once I moved to a larger city and started living away from family (when I was 15) to attend a larger school, I decided to start a blog and write about the main Brazilian Science Olympiads and how to study for them!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;projeto-olimpico&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itadeufa.wordpress.com&#x2F;&quot;&gt;Projeto Olímpico&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Projeto_Olímpico&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itadeufa.wordpress.com&#x2F;&quot;&gt;Projeto Olímpico&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;After writing it for about a month, there was enough interest from friends that we changed the hosting from wordpress to &lt;a href=&quot;https:&#x2F;&#x2F;olimpiada.webnode.com.br&#x2F;&quot;&gt;webnode&lt;&#x2F;a&gt;, which allowed for a bit more customization.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;olimpiadas-webnode-com-br&quot;&gt;Olimpiadas.webnode.com.br&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpiadas.webnode.com.br&quot;&gt;Olimpiadas.webnode.com.br&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15746376229424477.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15746376229424477.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15746385825016527.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15746385825016527.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;At this time, more people decided to join the project, and we became a team of 3 people.  We started receiving comments from students from all over Brazil, thanking us for the project. We started posting information about all the competitions as things happened. You could access our website to know what competitions had their registration open, which ones were releasing results and so on. We also improved our study guides and created pages for each science olympiad explaining what they were. We were even deciding on standards such as &amp;quot;when writing a post about a result, the post contains a single image at the top with the symbol of the competition, and we end the post with &#x27;congratulations to all the winners!&#x27;&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;We also bough our own domain! Olimpiadascientificas.com&lt;&#x2F;p&gt;
 &lt;p&gt;About 10 months later, in late 2011, our website got popular enough that Augusto, a student from very far away decided to help us! He had experience with creating websites and blogs, so we moved it to our own VM running wordpress!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;olimpiadascientificas-com&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20160112231415&#x2F;http:&#x2F;&#x2F;www.olimpiadascientificas.com&#x2F;&quot;&gt;Olimpiadascientificas.com&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpiadascientificas.com&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20160112231415&#x2F;http:&#x2F;&#x2F;www.olimpiadascientificas.com&#x2F;&quot;&gt;Olimpiadascientificas.com&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
 The website kept growing and the team kept growing. In 2012, when I appeared on Tv, newspapers and magazines, I advertised the website and we were getting Approximately 500 visits per day!&lt;&#x2F;p&gt;
 &lt;p&gt;Our team was amazing, we had probably over 30 people. Most of them only contributed with a single post or so, while others contributes with dozens, and also many different pages or study materials.  I&#x27;d say that anyone in Brazil preparing for an International Science Olympiad was using our website.  There were people who lived near my small hometown who were preparing for the International Astronomy and Astrophysics Olympiad by using material we had shared, and they went to IOAA. &lt;&#x2F;p&gt;
@@ -858,16 +858,16 @@ The website kept growing and the team kept growing. In 2012, when I appeared on 
 &lt;p&gt;We started another project, &lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;&quot;&gt;Vida de olímpico&lt;&#x2F;a&gt; where people taking part in science competitions were writing blogs about their experiences. When I was in a small town, taking part in these competitions was a very lonely endeavor; by having a blog with other people sharing their experiences, the intention was to create a sense of community and also encourage people to keep going and keep studying and trying! Another intention was to debunk the myth that people taking part in those competitions had some type of divine gift that allowed them to be better than the others, since on the blogs we showed the amount of study that we had to put on. &lt;&#x2F;p&gt;
 &lt;p&gt;In my personal &amp;quot;vida de olímpico&amp;quot; blog, I was receiving around 50 visits per day and many comments and I truly believed things were a bit better because of all the information sharing we were promoting!&lt;&#x2F;p&gt;
 &lt;p&gt;Some of the people who started writing those blogs, started writing them when they were just starting, and after a while they were traveling the world to go to science camps on trips they had won, and to International Science Olympiads! It was fantastic seeing their development! &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-competitors-and-the-downfall&quot;&gt;The competitors and the downfall&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_competitors_and_the_downfall&quot;&gt;The competitors and the downfall&lt;&#x2F;h1&gt;
 &lt;p&gt;But soon we started having people wanting to create their own websites about science olympiads, and then use their website to share their own facebook groups for people to study and discuss and so on. There was a split, and with most of the people in olimpiadascientificas graduating, we were not going to update the website as often and it was harder to find people to take over for us, since they went to other websites.  Then there were some problems with one of the people in the team deleting all the other people from our team and I not handling it very well. So our website kinda died.&lt;&#x2F;p&gt;
 &lt;p&gt;The final blows to the website were when we stopped maintaining our wordpress server and because of vulnerabilities the website stopped being able to load. And later on, when we forgot to renew the domain and lost it.&lt;&#x2F;p&gt;
 &lt;p&gt;Our main &amp;quot;&lt;a href=&quot;https:&#x2F;&#x2F;noic.com.br&#x2F;&quot;&gt;competitor&lt;&#x2F;a&gt;&amp;quot; is still going strong, and they copied multiple parts of our style to the dot! Which makes me happy, because even though our website mostly died, there are still others doing exactly what we wanted to do! And they have enough people in their team that they can focus on producing original content rather than just reporting news! More producing knowledge rather than just sharing how to access knowledge. I  just wish the menu on their website was easier to use, since I find it very hard to find the study page for any of their subjects, since it involves 3 clicks and accessing 3 different pages, and I also wish that they had a more searchable name, so that other people would more readily find them instead of us.&lt;&#x2F;p&gt;
 &lt;p&gt;Our second &lt;a href=&quot;https:&#x2F;&#x2F;obmepeiros.com.br&#x2F;&quot;&gt;main competitor&lt;&#x2F;a&gt; went through the same rabbit hole we went once, but they went much deeper. In order to make their website cooler, they started adding more and more plugins, and images and javascript and all. It has reached the point where their website is so slow that I find it very bad to use… It is sad, since otherwise they&#x27;d be helping a lot more people than they currently are.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-memorial&quot;&gt;The memorial&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_memorial&quot;&gt;The memorial&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;pageviews.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;pageviews.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;After all the problems with wordpress and realizing that I wouldn&#x27;t be able to maintain the website, I made a &amp;quot;memorial&amp;quot;. I converted the website to a static generated website in jekyll, so it would be much faster. I deleted the news and posts and kept only the rest: information about the main science olympiads, how to study, and information about the teams. However, the saddest part was converting the &amp;quot;Vida de Olímpico&amp;quot; blogs to fixed pages, by using a webscrapper, since they were also could not be used anymore because of the un-maintained wordpress problems…&lt;&#x2F;p&gt;
 &lt;p&gt;We went from having 15k page views per day, on our most popular point, to now having only around 100 pageviews per day. I hope the students have been able to find the help they needed through other sources now.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-post-mortem&quot;&gt;The post-mortem&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_post-mortem&quot;&gt;The post-mortem&lt;&#x2F;h1&gt;
 &lt;p&gt;Recently I&#x27;ve added a web scrapper that inserts the news of all the main Brazilian Science Olympiad websites to our front page, in the hope of redirecting students to what are the best sources of information now.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;ocfront.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;ocfront.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;And in a few months I hope it will be possible for me to recover our original domain!&lt;&#x2F;p&gt;
@@ -887,7 +887,7 @@ The website kept growing and the team kept growing. In 2012, when I appeared on 
         
         <content type="html">&lt;p&gt;Talking to a friend in San Francisco who is very attuned with her sense of smell made me realize that I mostly just ignore my sense of smell, to the point that I feel like I&#x27;m almost losing it. So I&#x27;ll try to keep a list of at least 10 things I&#x27;ve smelled and try to make a conscious effort into remembering it. &lt;&#x2F;p&gt;
 &lt;p&gt;I wonder if I generally ignore my sense of smell because I had to learn to tune it out when dealing with so many different animals and so many different types of animal poop back in the day. Seriously, it was quite horrible. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;2019-10-16-wed&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;[2019-10-16 Wed]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;[2019-10-16_Wed]&quot;&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;[2019-10-16 Wed]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Conditioner on my skin&lt;&#x2F;li&gt;
 &lt;li&gt;Chips that someone opened in the airplane&lt;&#x2F;li&gt;
@@ -916,7 +916,7 @@ The website kept growing and the team kept growing. In 2012, when I appeared on 
         <id>/baby-deer.html</id>
         
         <content type="html">&lt;p&gt;Taking care of a baby deer. College app essay, partially erased and adapted to protect personal information.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;baby-deer&quot;&gt;Baby deer&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Baby_deer&quot;&gt;Baby deer&lt;&#x2F;h1&gt;
 &lt;p&gt;When I was fourteen,  I was designated the responsibility of caring for a rescued newborn deer. A hunter had killed its mom and left it there to die. The deer was weak, dehydrated and hungry — on the brink between life and death.&lt;&#x2F;p&gt;
 &lt;p&gt;I named her “Lita.” In the beginning, she could barely bear her own weight. Each day I’d feed her with a little nursing bottle and play with her so she wouldn&#x27;t feel lonely. Day by day, she was growing stronger. After three weeks she was able to walk and eat by herself, making my job much easier. She was cute and gentle — she always followed me at home and asked me for caress,touching my hand with her head.&lt;&#x2F;p&gt;
 &lt;p&gt;I started getting tired of taking care of her because it required so much time, but I couldn&#x27;t go out and leave her alone. She was my responsibility. However, after one month I got bored and started to spend my time reading or playing on the computer. To be honest, I didn&#x27;t want to keep looking after her. My routine was monotonous: putting milk in her plate, petting her and cleaning up her mess.&lt;&#x2F;p&gt;
@@ -2102,12 +2102,12 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
         <id>/i3wm-screencasting-gifs.html</id>
         
         <content type="html">&lt;p&gt;I read an amazing &lt;a href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;r&#x2F;i3wm&#x2F;comments&#x2F;65vis5&#x2F;screenshot_commands_from_my_i3_config&#x2F;dgnic66&#x2F;&quot;&gt;comment on reddit&lt;&#x2F;a&gt; about how to very easily record the screen into gifs and I&#x27;ll report it here with some improvements. All of this can be used in any other window manager, as long as you can create keyboard shortcuts.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;create-shortcut-to-start-and-stop-screenrecording&quot;&gt;Create shortcut to start and stop screenrecording&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Create_shortcut_to_start_and_stop_screenrecording&quot;&gt;Create shortcut to start and stop screenrecording&lt;&#x2F;h1&gt;
 &lt;p&gt;First we create a shortcut to start and stop the screenrecording&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;bindsym&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Shift+Ctrl+Print exec &lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.files&#x2F;i3&#x2F;record-screen.sh gif&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;bindsym&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Shift+Mod4+Print exec &lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.files&#x2F;i3&#x2F;record-screen.sh ogv&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;record-screen-sh&quot;&gt;record-screen.sh&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;record-screen.sh&quot;&gt;record-screen.sh&lt;&#x2F;h1&gt;
 &lt;p&gt;This is the file where most things happen.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Dependencies:&lt;&#x2F;strong&gt; &lt;code&gt;byzanz-record&lt;&#x2F;code&gt; , &lt;code&gt;slop&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;It uses &lt;code&gt;byzanz&lt;&#x2F;code&gt; to record the screen, and &lt;code&gt;slop&lt;&#x2F;code&gt; to select which screen to record from, as well as the &lt;code&gt;--exec&lt;&#x2F;code&gt; flag. &lt;code&gt;--exec&lt;&#x2F;code&gt; makes it so &lt;code&gt;byzanz&lt;&#x2F;code&gt; records until that process exists. This allows us to control exactly for how long the recording will last since we can simply kill it using our shortcut.&lt;&#x2F;p&gt;
@@ -2140,7 +2140,7 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-kill z-shell&quot;&gt;kill&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;IS_RECORDING_PID&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;is-recording-sh&quot;&gt;is-recording.sh&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;is-recording.sh&quot;&gt;is-recording.sh&lt;&#x2F;h1&gt;
 &lt;p&gt;This is the process that when killed stops the recording. &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;!&#x2F;usr&#x2F;bin&#x2F;env bash&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
 &lt;&#x2F;span&gt;    
@@ -2150,8 +2150,8 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sleep&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; 60&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-loop z-end z-shell&quot;&gt;done&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;improvements-and-changes&quot;&gt;Improvements and changes&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;making-the-gif-smaller&quot;&gt;Making the gif smaller&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Improvements_and_changes&quot;&gt;Improvements and changes&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Making_the_gif_smaller&quot;&gt;Making the gif smaller&lt;&#x2F;h2&gt;
 &lt;p&gt;Recording a gif using the above files will result in files that are unreasonably large. A 10s recording might take 10mb!&lt;&#x2F;p&gt;
 &lt;p&gt;Therefore the first thing we should do is optimize the gif so that it is smaller.  Luckily there is a program that does just that: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;kohler&#x2F;gifsicle&quot;&gt;gifsicle&lt;&#x2F;a&gt;. Since there are very few changes between each frame in a screencast, this can turn 10mb files into 100kb files!&lt;&#x2F;p&gt;
 &lt;p&gt;This is the relevant change:&lt;&#x2F;p&gt;
@@ -2160,23 +2160,23 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;gifsicle&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;batch&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;optimize&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-option z-shell&quot;&gt;=&lt;&#x2F;span&gt;3 &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;;&lt;span class=&quot;z-keyword z-operator z-logical z-continue z-shell&quot;&gt;;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;copying-the-file-to-the-clipboard&quot;&gt;Copying the file to the clipboard&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Copying_the_file_to_the_clipboard&quot;&gt;Copying the file to the clipboard&lt;&#x2F;h2&gt;
 &lt;p&gt;After you&#x27;ve save the file, it is useful to have it copied to the clipboard, so you can you use it in another place. In my case, I like being able to paste the screencast directly to my orgmode files by using my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&#x2F;blob&#x2F;master&#x2F;clipboard2org.el&quot;&gt;clipboard2org package&lt;&#x2F;a&gt;, but you can use other programs.&lt;&#x2F;p&gt;
 &lt;p&gt;This depends on &lt;code&gt;xclip&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-echo z-shell&quot;&gt;echo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-logical z-pipe z-shell&quot;&gt;|&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;xclip&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;selection&lt;&#x2F;span&gt; clipboard&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;t&lt;&#x2F;span&gt; text&#x2F;uri-list&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;displaying-a-notification-when-you-finish-recording&quot;&gt;Displaying a notification when you finish recording&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Displaying_a_notification_when_you_finish_recording&quot;&gt;Displaying a notification when you finish recording&lt;&#x2F;h2&gt;
 &lt;p&gt;I do not use polybar. So instead I use &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;vlevit&#x2F;notify-send.sh&quot;&gt;notify-send.sh&lt;&#x2F;a&gt; to send a notification when we finish the recording so I know that the command worked:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;&lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.config&#x2F;i3&#x2F;notify-send.sh&#x2F;notify-send.sh&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt; display  &lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;finished recording&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;recording-webms&quot;&gt;Recording webms&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Recording_webms&quot;&gt;Recording webms&lt;&#x2F;h2&gt;
 &lt;p&gt;Webms are better than gifs when supported. They are supported by basically everything, except IOS devices and internet explorer. In other words, it is even better than being supported everywhere haha. &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;webm&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;)
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;byzanz-record&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;w&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;W&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;h&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;H&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;x&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;X&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;y&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;Y&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;c&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;exec&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-option z-shell&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;IS_RECORDING_SH&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;;&lt;span class=&quot;z-keyword z-operator z-logical z-continue z-shell&quot;&gt;;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Putting_it_all_together&quot;&gt;Putting it all together&lt;&#x2F;h2&gt;
 &lt;p&gt;This is the end result.  The &lt;strong&gt;Dependencies:&lt;&#x2F;strong&gt; &lt;code&gt;byzanz-record&lt;&#x2F;code&gt; , &lt;code&gt;slop&lt;&#x2F;code&gt;, &lt;code&gt;gifsicle&lt;&#x2F;code&gt;, &lt;code&gt;notify-send.sh&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;All  of the paths are based on the paths I&#x27;ve setup here, you should adapt them to your case.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;!&#x2F;usr&#x2F;bin&#x2F;env bash&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
@@ -2215,7 +2215,7 @@ e in the same ways as done by the server package.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;&lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.config&#x2F;i3&#x2F;notify-send.sh&#x2F;notify-send.sh&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt; display  &lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;finished recording&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;example&quot;&gt;Example!&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Example!&quot;&gt;Example!&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;.&#x2F;gif&#x2F;Screencast-2019-05-24T044159-0400.gif&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
         
@@ -2426,7 +2426,7 @@ So in the end I could solve my problem set very efficiently, without having to w
 &lt;p&gt;So I decided to write a scrip to just do that, I press Ctrl-Print and the magic happens!&lt;&#x2F;p&gt;
 &lt;p&gt;It sets my screen brightness to max. Takes a pic with my webcam. Sets the screen brightness to where it was.  Prompts me to crop the picture it took. Uses &lt;a href=&quot;http:&#x2F;&#x2F;www.fmwconcepts.com&#x2F;imagemagick&#x2F;textcleaner&#x2F;index.php&quot;&gt;textcleaner&lt;&#x2F;a&gt; to clean the picture up. And at last, it automatically inserts the picture in my org document, and displays the picture.&lt;&#x2F;p&gt;
 &lt;p&gt;In other words, a quick and dirty scanner with computer screen flash to scan papers.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;controlling-the-brightness&quot;&gt;Controlling the brightness&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Controlling_the_brightness&quot;&gt;Controlling the brightness&lt;&#x2F;h1&gt;
 &lt;p&gt;First I needed to allow me to control the brightness without sudo. Here I added my group as a group with permissions to edit the brightness.&lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;sudo chgrp ivanaf &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
 sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
@@ -2434,7 +2434,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
 &lt;p&gt;Then I could just use &lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;echo brightness &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;taking-the-picture&quot;&gt;Taking the picture&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Taking_the_picture&quot;&gt;Taking the picture&lt;&#x2F;h1&gt;
 &lt;p&gt;I use pygame to take the picture.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; class=&quot;language-python z-code&quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;z-source z-python&quot;&gt;&lt;span class=&quot;z-meta z-statement z-import z-python&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-python&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
   &lt;span class=&quot;z-meta z-statement z-import z-python&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-python&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;camera&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
@@ -2539,7 +2539,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
   
       &lt;span class=&quot;z-meta z-function-call z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-variable z-function z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;quit&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-begin z-python&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-end z-python&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;cropping-the-picture&quot;&gt;Cropping the picture&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cropping_the_picture&quot;&gt;Cropping the picture&lt;&#x2F;h1&gt;
 &lt;p&gt;Again, I use pygame, using the code from these online answers: 
 &lt;a href=&quot;https:&#x2F;&#x2F;coderwall.com&#x2F;p&#x2F;hmp8uw&#x2F;image-cropping-using-pygame&quot;&gt;https:&#x2F;&#x2F;coderwall.com&#x2F;p&#x2F;hmp8uw&#x2F;image-cropping-using-pygame&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;6136588&#x2F;image-cropping-using-python&#x2F;8696558&quot;&gt;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;6136588&#x2F;image-cropping-using-python&#x2F;8696558&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
@@ -2635,10 +2635,10 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
     
         &lt;span class=&quot;z-meta z-function-call z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-variable z-function z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;quit&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-begin z-python&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-end z-python&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;cleaning-the-image&quot;&gt;Cleaning the image&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cleaning_the_image&quot;&gt;Cleaning the image&lt;&#x2F;h1&gt;
 &lt;p&gt;To clean the image, I was trying to remove the background by blurring the image, and dividing the original image by the blurred one.&lt;&#x2F;p&gt;
 &lt;p&gt;This method is very effective. However, I found something even better, &lt;a href=&quot;http:&#x2F;&#x2F;www.fmwconcepts.com&#x2F;imagemagick&#x2F;textcleaner&#x2F;index.php&quot;&gt;Fred&#x27;s ImageMagick Scripts for text cleaning&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Putting_it_all_together&quot;&gt;Putting it all together&lt;&#x2F;h1&gt;
 &lt;pre data-lang=&quot;el&quot; class=&quot;language-el z-code&quot;&gt;&lt;code class=&quot;language-el&quot; data-lang=&quot;el&quot;&gt;&lt;span class=&quot;z-source z-lisp&quot;&gt;    &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-lisp&quot;&gt;&lt;span class=&quot;z-storage z-type z-function-type z-lisp&quot;&gt;defun&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-function z-lisp&quot;&gt;ivanaf&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&amp;amp;optional landscape&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;interactive&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;let&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;*&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;python&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;cam&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;command &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;~&#x2F;org&#x2F;packages&#x2F;webcamscan&#x2F;webcam.py&lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
@@ -2677,7 +2677,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;define&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;key org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;mode&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;map&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;kbd &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;C-&amp;lt;print&amp;gt; &lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &amp;#39;ivanaf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;define&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;key org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;mode&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;map&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;kbd &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;M-&amp;lt;print&amp;gt; &lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &amp;#39;ivanaf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;l&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;results&quot;&gt;Results:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Results:&quot;&gt;Results:&lt;&#x2F;h1&gt;
 &lt;p&gt;Here is a &amp;quot;scan&amp;quot; of the back of the mit career fair book from last year, taken in my dark room.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15370864184127958.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15370864184127958.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Which is about as good as possible, give the quality of the light &#x2F; camera. &lt;&#x2F;p&gt;
@@ -2694,16 +2694,16 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
         <link rel="alternate" href="/export-subtree-with-files.html" type="text/html"/>
         <id>/export-subtree-with-files.html</id>
         
-        <content type="html">&lt;h1 id=&quot;update&quot;&gt;Update:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;Update:&quot;&gt;Update:&lt;&#x2F;h1&gt;
 &lt;p&gt;Now this is on on github, in the repo &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;org-export-with-files&quot;&gt;org-export-with-files&lt;&#x2F;a&gt;. It is fairly usable and fairly useful. The next step is to figure out how to best deal with custom links.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
 &lt;p&gt;I have a main org files that contains notes for multiple classes and papers in different headlines. It is very easy to use this org file to find information since every note contains links to the relevant papers.&lt;&#x2F;p&gt;
 &lt;p&gt;However, sharing this file with someone can be challenging, since I just want to share the relevant notes&#x2F;papers and not everything that is linked by this file.&lt;&#x2F;p&gt;
 &lt;p&gt;The code below solves this problem. It creates a hard link of every file linked by the specific headline into the export directory and fixes all the links in the exported pdf so that it points to the relative location of those files.&lt;&#x2F;p&gt;
 &lt;p&gt;This allows me to quickly generate a folder that contains all the files I wanna share as well as a pdf that allows the other person to easily navigate through the files and see the relevant information.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;warning&quot;&gt;Warning:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Warning:&quot;&gt;Warning:&lt;&#x2F;h1&gt;
 &lt;p&gt;The file links when exporting to latex need to be of the form [[&lt;file&gt;] [name of the link]]. I other words, they need a description. Links without descriptions are interpreted as images, even if they have extensions such as pdf.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;code&quot;&gt;Code&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Code&quot;&gt;Code&lt;&#x2F;h1&gt;
 &lt;pre data-lang=&quot;el&quot; class=&quot;language-el z-code&quot;&gt;&lt;code class=&quot;language-el&quot; data-lang=&quot;el&quot;&gt;&lt;span class=&quot;z-source z-lisp&quot;&gt;    &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;require&lt;&#x2F;span&gt; &amp;#39;ox&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     
     
@@ -2799,7 +2799,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
         <id>/simple-proof-weak-master-theorem.html</id>
         
         <content type="html">&lt;p&gt;For a 006 student piazza question. Te student liked my answer so I decided to share!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;work-per-level&quot;&gt;Work per level:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Work_per_level:&quot;&gt;Work per level:&lt;&#x2F;h1&gt;
 &lt;p&gt;Suppose you have:&lt;&#x2F;p&gt;
 &lt;p&gt;$$T(n) = a T(n&#x2F;b) + n^c$$&lt;&#x2F;p&gt;
 &lt;p&gt;The amount of work done on the root of the tree is:&lt;&#x2F;p&gt;
@@ -2808,27 +2808,27 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
 &lt;p&gt;$$n^c \frac{a}{b^c}$$&lt;&#x2F;p&gt;
 &lt;p&gt;so on the $i^{th}$  level, considering the root to be level 0, is:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \left(\frac{a}{b^c}\right)^i$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;number-of-levels&quot;&gt;Number of levels&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Number_of_levels&quot;&gt;Number of levels&lt;&#x2F;h1&gt;
 &lt;p&gt;Given that the size of an element of the tree decreases by $b$ in each level, e.g. $n$ -&amp;gt; n&#x2F;b, n&#x2F;b^2…&lt;&#x2F;p&gt;
 &lt;p&gt;An element of the tree will have size 1 at the level:
 $$\log_bn$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;total-work-on-the-tree&quot;&gt;Total work on the tree&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Total_work_on_the_tree&quot;&gt;Total work on the tree&lt;&#x2F;h1&gt;
 &lt;p&gt;The total amount of work on the tree is therefore:&lt;&#x2F;p&gt;
 &lt;p&gt;$$\sum_{i=0}^{\log_bn} n^c \left(\frac{a}{b^c}\right)^i = n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i $$&lt;&#x2F;p&gt;
 &lt;p&gt;This naturally leads to 3 cases:&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) &amp;gt;1$$&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) = 1$$&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) &amp;lt; 1$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-1-frac-a-b-c-1&quot;&gt;Case 1: $$\frac{a}{b^c}&amp;lt;1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_1:_$$\frac{a}{b^c}&amp;lt;1$$&quot;&gt;Case 1: $$\frac{a}{b^c}&amp;lt;1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;You have a geometric series of ratio &amp;lt; 1:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i \le n^c &lt;br&#x2F;&gt; \sum_{i=0}^{\infty} \left(\frac{a}{b^c}\right)^i = n^c \frac{1}{1-\left(\frac{a}{b^c}\right)}$$&lt;&#x2F;p&gt;
 &lt;p&gt;And this new term is just a constant&lt;&#x2F;p&gt;
 &lt;p&gt;So:&lt;&#x2F;p&gt;
 &lt;p&gt;$$\theta ( n^{c})$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-2-frac-a-b-c-1&quot;&gt;Case 2: $$\frac{a}{b^c}=1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_2:_$$\frac{a}{b^c}=1$$&quot;&gt;Case 2: $$\frac{a}{b^c}=1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;Now the amount of work per level is the same, so:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i= n^c \sum_{i=0}^{\log_bn} 1 = n^c \log_bn $$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-3-frac-a-b-c-1&quot;&gt;Case 3: $$\frac{a}{b^c}&amp;gt;1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_3:_$$\frac{a}{b^c}&amp;gt;1$$&quot;&gt;Case 3: $$\frac{a}{b^c}&amp;gt;1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;The easiest way to deal with this case is to simply turn the tree upside down.&lt;&#x2F;p&gt;
 &lt;p&gt;The amount of work done at the leaves of the tree is the same as the number of leaves on the tree, which is:&lt;&#x2F;p&gt;
 &lt;p&gt;$$a^{\log_b n} = \left(b^{\log_ba} \right)^{\log_bn} = \left(b^{\log_bn} \right)^{\log_ba} = n^{\log_ba}$$&lt;&#x2F;p&gt;
@@ -2845,19 +2845,29 @@ $$\log_bn$$&lt;&#x2F;p&gt;
     <entry xml:lang="en">
         <title>About</title>
         <published>2018-09-09T00:00:00+00:00</published>
-        <updated>2023-08-26T00:00:00+00:00</updated>
+        <updated>2023-09-24T00:00:00+00:00</updated>
         <author>
           <name>Unknown</name>
         </author>
         <link rel="alternate" href="/about.html" type="text/html"/>
         <id>/about.html</id>
         
-        <content type="html">&lt;div class=&quot;c&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;ivan.jpg&quot; alt=&quot;ivan&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+        <content type="html">&lt;div class=&quot;c index-intro&quot;&gt;
+&lt;h1 id=&quot;Ivan_Tadeu_Ferreira_Antunes_Filho&quot;&gt;Ivan Tadeu Ferreira Antunes Filho&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;IMG_2359~2.jpg&quot; alt=&quot;IMG_2359~2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
-I am Ivan Tadeu Ferreira Antunes Filho, a Software Engineer at Google Cambridge, previously Head of Algorithms at Radix Labs, and worked at Facebook, Quantlab, and Indeed.com.  
+&lt;p&gt;&lt;strong&gt;Under construction&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;Index&quot;&gt;Index&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;about.html#Summary&quot;&gt;Summary&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;about.html#Awards&quot;&gt;Awards&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;about.html#In_the_Media_(2011-2013)&quot;&gt;In the Media&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;about.html#Interests&quot;&gt;Interests&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;Summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
+&lt;p&gt;I am a Software Engineer at &lt;a href=&quot;https:&#x2F;&#x2F;careers.google.com&#x2F;locations&#x2F;cambridge&#x2F;&quot;&gt;Google Cambridge&lt;&#x2F;a&gt;, previously Head of Algorithms at &lt;a href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20220330050525&#x2F;https:&#x2F;&#x2F;www.radix.bio&#x2F;&quot;&gt;Radix Labs&lt;&#x2F;a&gt;, and worked at Facebook, Quantlab, and Indeed.com.&lt;&#x2F;p&gt;
 &lt;p&gt;Master of Engineering in Computer Science, from MIT, with a degree in Computer Science and Electrical Engineering, and Mathematics also from MIT. &lt;&#x2F;p&gt;
-&lt;p&gt;Specialized in  backend, primarily in Algorithms and Performance, and secondarily in Systems and Toolchains, but I have also worked with user interfaces and data visualization tools. &lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve worked primarily in Algorithms and Performance, and secondarily in Systems and Toolchains, but I have also worked with user interfaces and data visualization tools. &lt;&#x2F;p&gt;
 &lt;p&gt;Previous work includes &lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;implementing Resource Constrained Project Scheduling algorithms from research papers and improving on them, together with implementing a UI for clients to use; &lt;&#x2F;li&gt;
@@ -2866,17 +2876,23 @@ I am Ivan Tadeu Ferreira Antunes Filho, a Software Engineer at Google Cambridge,
 &lt;li&gt;Chatbot to help diagnose code issues faster&lt;&#x2F;li&gt;
 &lt;li&gt;Analyzing an embedded operating system written in rust for unsafe code and exploits;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;p&gt;Originally from Brazil, which I represented in multiple International Science Olympiads. &lt;a href=&quot;https:&#x2F;&#x2F;ipho-unofficial.org&#x2F;timeline&#x2F;2012&#x2F;individual&quot;&gt;IPhO&lt;&#x2F;a&gt; and IJSO gold medalist, &lt;a href=&quot;https:&#x2F;&#x2F;www.gov.br&#x2F;mast&#x2F;pt-br&#x2F;assuntos&#x2F;noticias&#x2F;2012&#x2F;agosto&#x2F;brasil-encerra-participacao-na-olimpiada-de-astronomia-com-tres-medalhas&quot;&gt;IOAA&lt;&#x2F;a&gt;, IOL, WoPhO and OIaB Silver medalist. &lt;&#x2F;p&gt;
+&lt;p&gt;I am a jack of all trades, constantly learning about new areas so I can better interface with people. My background competing in &lt;a href=&quot;https:&#x2F;&#x2F;ipho-unofficial.org&#x2F;timeline&#x2F;2012&#x2F;individual&quot;&gt;physics&lt;&#x2F;a&gt;, biology, linguistics, astronomy, chemistry, mathematics and informatics, together with graduating in electrical engineering, computer science and mathematics gives me a good interdisciplinary background to approach problems. &lt;&#x2F;p&gt;
+&lt;p&gt;I also have experience helping take care of &lt;a href=&quot;&#x2F;me-and-animals.html&quot;&gt;multiple types of animals&lt;&#x2F;a&gt;, including armadillos, anteaters, parrots and toucans. My main current hobby is ballroom dancing.&lt;&#x2F;p&gt;
 &lt;p&gt;Teaching is also one of my skills and interests. I was a teaching assistant for algorithms at MIT for 3 semesters, with ratings equal or above 6.5&#x2F;7, as well as the main instructor for a month long algorithm course at MIT in January 2019 with ratings 6.4&#x2F;7. I am of the opinion that rapid feedback is of main importance when learning new concepts, and courses should use current tools to do so when possible.&lt;&#x2F;p&gt;
-&lt;p&gt;I&#x27;m really excited about science, technology. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;name-pronunciation&quot;&gt;Name Pronunciation&lt;&#x2F;h3&gt;
-&lt;p&gt;[ee · VAN – ta·DEW – fay·HEY·ra – an·TOO·niece – fee·LEO]&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;recent-stuff&quot;&gt;Recent stuff&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Experience&quot;&gt;Experience&lt;&#x2F;h1&gt;
 &lt;p&gt;You can see some of the recent things I&#x27;ve worked on on my &lt;a href=&quot;&#x2F;portfolio.html&quot;&gt;portfolio&lt;&#x2F;a&gt; or on my &lt;a href=&quot;&#x2F;resume.html&quot;&gt;resume&lt;&#x2F;a&gt; page, depending if you are interested in my side projects or more on academics and internships. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;old-stuff&quot;&gt;Old stuff&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;medals-in-science-olympiads-2006-2013&quot;&gt;Medals in Science Olympiads (2006-2013)&lt;&#x2F;h2&gt;
-&lt;p&gt;I took part in multiple science olympiads back in highschool, here is a
-list of the competitions. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;international-medals&quot;&gt;International medals&lt;&#x2F;h3&gt;
+&lt;h1 id=&quot;Awards&quot;&gt;Awards&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;MIT_competitions&quot;&gt;MIT competitions&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;about-1695611167226.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Our &lt;a href=&quot;https:&#x2F;&#x2F;devpost.com&#x2F;software&#x2F;augmodules&quot;&gt;AugModules&lt;&#x2F;a&gt; project, built by me and Allan Costa won the Verizon best IOT project at the Make MIT hackathon&lt;&#x2F;li&gt;
+&lt;li&gt;First place in the &lt;a href=&quot;http:&#x2F;&#x2F;maslab.mit.edu&#x2F;wiki&#x2F;index.php?title=Team_Six&#x2F;Final_Paper&quot;&gt;MIT Mobile Autonomous Systems LABoratory&lt;&#x2F;a&gt; competition in 2015. &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;Medals_in_Science_Olympiads_(2006-2013)&quot;&gt;Medals in Science Olympiads (2006-2013)&lt;&#x2F;h2&gt;
+&lt;p&gt;I took part in multiple science olympiads back in highschool, here is a list of the competitions. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;International_medals&quot;&gt;International medals&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;about-1695610575524.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Competition&lt;&#x2F;th&gt;&lt;th&gt;Year&lt;&#x2F;th&gt;&lt;th&gt;Medal&lt;&#x2F;th&gt;&lt;th&gt;Subjects&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;International Junior Science Olympiad (IJSO)&lt;&#x2F;td&gt;&lt;td&gt;2009&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Physics, Chemistry and Biology&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;International Junior Science Olympiad (IJSO)&lt;&#x2F;td&gt;&lt;td&gt;2010&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Physics, Chemistry and Biology&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2892,7 +2908,8 @@ list of the competitions. &lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;International Linguistics Olympiad (IOL)&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Linguistics, Logic&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;World Physics Olmpyad (WoPhO)&lt;&#x2F;td&gt;&lt;td&gt;2012&#x2F;2013&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Physics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;all-medals&quot;&gt;All medals&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;All_medals&quot;&gt;All medals&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;about-1695610111740.jpeg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Competition&lt;&#x2F;th&gt;&lt;th&gt;Year&lt;&#x2F;th&gt;&lt;th&gt;International&#x2F;National&#x2F;State&#x2F;Regional&#x2F;&lt;&#x2F;th&gt;&lt;th&gt;Medal&lt;&#x2F;th&gt;&lt;th&gt;Subjects&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Lins Regional Mathematics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2006&lt;&#x2F;td&gt;&lt;td&gt;Regional&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Mathematics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Lins Regional Mathematics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2007&lt;&#x2F;td&gt;&lt;td&gt;Regional&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Mathematics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2934,6 +2951,7 @@ list of the competitions. &lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;Brazilian Informatics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Programming&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Brazilian Biology Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;10th place&lt;&#x2F;td&gt;&lt;td&gt;General Biology&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Brazilian Linguistics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Linguistics, Logic&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;International Linguistics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;International&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Participant&lt;&#x2F;td&gt;&lt;td&gt;Linguistics, Logic&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;International Physics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;International&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Physics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Ibero-American Computer Correspondence Contest (CIIC)&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;International&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Informatics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Physics Cup&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;International&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;8th place&lt;&#x2F;td&gt;&lt;td&gt;Physics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2949,9 +2967,9 @@ list of the competitions. &lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;Brazilian Mathematical Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Honorable Mention&lt;&#x2F;td&gt;&lt;td&gt;Mathmatics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;World Physics Olmpyad (WoPhO)&lt;&#x2F;td&gt;&lt;td&gt;2012&#x2F;2013&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;International&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;td&gt;Physics&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Brazilian Biology Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2013&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;General Biology&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td&gt;Olimpíada Brasileira de Linguística&lt;&#x2F;td&gt;&lt;td&gt;2013&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Linguistics, Logic&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Brazilian Linguistics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2013&lt;&#x2F;td&gt;&lt;td&gt;National&lt;&#x2F;td&gt;&lt;td&gt;Gold&lt;&#x2F;td&gt;&lt;td&gt;Linguistics, Logic&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;summary-of-results&quot;&gt;Summary of results&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Summary_of_results&quot;&gt;Summary of results&lt;&#x2F;h3&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Level&lt;&#x2F;th&gt;&lt;th&gt;Gold Medals&lt;&#x2F;th&gt;&lt;th&gt;Silver Medals&lt;&#x2F;th&gt;&lt;th&gt;Bronze Medals&lt;&#x2F;th&gt;&lt;th&gt;Honorable Mentions&lt;&#x2F;th&gt;&lt;th&gt;Total&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Regional&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;State&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;9&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -2960,11 +2978,11 @@ list of the competitions. &lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;International&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;0&lt;&#x2F;td&gt;&lt;td&gt;9&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Total&lt;&#x2F;td&gt;&lt;td&gt;26&lt;&#x2F;td&gt;&lt;td&gt;16&lt;&#x2F;td&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;54&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h3 id=&quot;new-medals-for-brazil&quot;&gt;New Medals for Brazil&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;New_Medals_for_Brazil&quot;&gt;New Medals for Brazil&lt;&#x2F;h3&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;World Physics Olmpyad (WoPhO)&lt;&#x2F;th&gt;&lt;th&gt;2012&#x2F;2013&lt;&#x2F;th&gt;&lt;th&gt;International&lt;&#x2F;th&gt;&lt;th&gt;Silver&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;International Linguistics Olympiad&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;International&lt;&#x2F;td&gt;&lt;td&gt;Silver&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h2 id=&quot;in-the-media-2011-2013&quot;&gt;In the Media (2011-2013)&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;In_the_Media_(2011-2013)&quot;&gt;In the Media (2011-2013)&lt;&#x2F;h1&gt;
 &lt;p&gt;And because of the science olympiads, I&#x27;ve also appeared in the media a
 number of times. Here are some interviews to newspapers, magazines and
 TV. &lt;&#x2F;p&gt;
@@ -2992,17 +3010,23 @@ TV. &lt;&#x2F;p&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;revista-contigo.html&quot;&gt;Menino de Ouro - Revista Contigo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15959135050940754.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15959135050940754640x640.jpg&quot; alt=&quot;img&quot; title=&quot;Picture taken with [Marília Gabriela](https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mar%C3%ADlia_Gabriela), one of the most famous interviewers in Brazil, during a break in her interview show.&quot; &#x2F;&gt;&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
-&lt;p&gt;Picture taken with &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mar%C3%ADlia_Gabriela&quot;&gt;Marília Gabriela&lt;&#x2F;a&gt;, one of the most famous interviewers in Brazil, during a break in her interview show. &lt;&#x2F;p&gt;
+&lt;p&gt;Picture taken with &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mar%C3%ADlia_Gabriela&quot;&gt;Marília Gabriela&lt;&#x2F;a&gt;, one of the most famous interviewers in Brazil, during a break in her interview show, &amp;quot;&lt;a href=&quot;https:&#x2F;&#x2F;pt.m.wikipedia.org&#x2F;wiki&#x2F;De_Frente_com_Gabi&quot;&gt;De frente com Gabi&lt;&#x2F;a&gt;&amp;quot;, winner of the best Brazilian interview program at the time.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;Imagem_002.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;Imagem_002640x640.jpg&quot; alt=&quot;img&quot; title=&quot;Picture for the magazine Contigo!, one of the main Celebrities&#x27; magazine in 2012.&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Picture for the magazine Contigo!, one of the main Celebrities&#x27; magazine in 2012.&lt;&#x2F;p&gt;
+&lt;p&gt;Picture for the magazine &lt;a href=&quot;https:&#x2F;&#x2F;pt.m.wikipedia.org&#x2F;wiki&#x2F;Contigo!&quot;&gt;Contigo!&lt;&#x2F;a&gt;, the second largest Brazilian Celebrities&#x27; magazine in 2012.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;16004082860554037.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;16004082860554037.jpg&quot; alt=&quot;img&quot; title=&quot;Picture on the largest newspaper in Brazil (Folha).&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Picture on the largest newspaper in Brazil (Folha)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;other&quot;&gt;Other&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Interests&quot;&gt;Interests&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Photography_projections&quot;&gt;Photography projections&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;jpg&#x2F;ivan.jpg&quot; alt=&quot;ivan&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Ballroom_dancing&quot;&gt;Ballroom dancing&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Other&quot;&gt;Other&lt;&#x2F;h2&gt;
 &lt;p&gt;I&#x27;ve helped taking care of far too many injured wild animals while I lived in Brazil. It is hard to describe the experience, but you can see some &lt;a href=&quot;&#x2F;me-and-animals.html&quot;&gt;pictures here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;I&#x27;ve also had previous blogs:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;index.html&quot;&gt;Ivan - Science Olympiads &lt;&#x2F;a&gt; In portuguese&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;Name_Pronunciation&quot;&gt;Name Pronunciation&lt;&#x2F;h3&gt;
+&lt;p&gt;[ee · VAN – ta·DEW – fay·HEY·ra – an·TOO·niece – fee·LEO]&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3073,35 +3097,35 @@ suggestions for how to edit pictures, and so on. Or at least that is the intenti
 Different projects I worked on over the years. Some very tiny,  some large ones.&lt;&#x2F;p&gt;
 &lt;div class=&quot;responsive-table&quot;&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;edge-matching-with-inequalities-triangles-unknown-shape-and-two-players&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2002.03887.pdf&quot;&gt;Edge Matching with Inequalities, Triangles,Unknown Shape, and Two Players&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Edge_Matching_with_Inequalities,_Triangles,Unknown_Shape,_and_Two_Players&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;2002.03887.pdf&quot;&gt;Edge Matching with Inequalities, Triangles,Unknown Shape, and Two Players&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;edgematch.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;edgematch.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2020- I was one of the author&#x27;s for the paper Edge Matching with Inequalities, Triangles,Unknown Shape, and Two Players, in computational complexity.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;master-s-of-engineering-thesis&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;erikdemaine.org&#x2F;theses&#x2F;ifilho.pdf&quot;&gt;Master&#x27;s of Engineering Thesis&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Master&#x27;s_of_Engineering_Thesis&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;erikdemaine.org&#x2F;theses&#x2F;ifilho.pdf&quot;&gt;Master&#x27;s of Engineering Thesis&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;thesis.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;thesis.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
 2019 - 
 My master&#x27;s of engineering thesis in Boolean Satisfiability, supervised by Erik Demaine.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;autoscraper-for-brazilian-science-olympiads&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;OlimpiadasCientificas&#x2F;olimpiadascientificas.github.io&#x2F;blob&#x2F;master&#x2F;_includes&#x2F;olimpiadascraper.py&quot;&gt;Autoscraper for Brazilian Science Olympiads&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Autoscraper_for_Brazilian_Science_Olympiads&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;OlimpiadasCientificas&#x2F;olimpiadascientificas.github.io&#x2F;blob&#x2F;master&#x2F;_includes&#x2F;olimpiadascraper.py&quot;&gt;Autoscraper for Brazilian Science Olympiads&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;2019 - &lt;&#x2F;p&gt;
 &lt;p&gt;A tool to scrape Brazilian Science Olympiad Websites for their news.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;6-s092-introduction-to-algorithms&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;6s092&quot;&gt;6.S092 Introduction to Algorithms &lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;6.S092_Introduction_to_Algorithms_&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;6s092&quot;&gt;6.S092 Introduction to Algorithms &lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;2018-2019 I organized the class 6.S092 twice while at MIT. It was an IAP class (1 month long in January), using CATSOOP to teach people the basics of algorithms. &lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;org-export-head&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;org-export-head&quot;&gt;Org export head&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Org_export_head&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;org-export-head&quot;&gt;Org export head&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;2018- Org mode to blog exporter. Converts each header to a different file. This blog was written using it!&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;clipboard-to-org-mode&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&quot;&gt;Clipboard to Org Mode&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Clipboard_to_Org_Mode&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&quot;&gt;Clipboard to Org Mode&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;2018- Copy and paste HTML, Images or file lists into orgmode.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;groebner-basis-for-linear-network-coding-in-sage&quot;&gt;&lt;a href=&quot;&#x2F;groebner-basis-for-linear-network-coding-in-sage.html&quot;&gt;Groebner Basis for Linear Network Coding in Sage&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Groebner_Basis_for_Linear_Network_Coding_in_Sage&quot;&gt;&lt;a href=&quot;&#x2F;groebner-basis-for-linear-network-coding-in-sage.html&quot;&gt;Groebner Basis for Linear Network Coding in Sage&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2018-  Proof of concept that it is possible, in a reasonable time, to test the
 solvability of linear networks by calculating the Groebner basis of the
@@ -3111,19 +3135,19 @@ Coding by Ralf Koetter, Member, IEEE, and Muriel Médard, Senior Member,
 IEEE.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;yaoi-on-fire-photos&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;media&#x2F;set&#x2F;?set=a.1844569188904101.1073741855.100000531142103&amp;amp;type=1&amp;amp;l=71845e495e&quot;&gt;Yaoi on Fire - Photos&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Yaoi_on_Fire_-_Photos&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.facebook.com&#x2F;media&#x2F;set&#x2F;?set=a.1844569188904101.1073741855.100000531142103&amp;amp;type=1&amp;amp;l=71845e495e&quot;&gt;Yaoi on Fire - Photos&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;yaoi-on-fire.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;yaoi-on-fire.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2017-  One of the photographers for the Yaoi on Fire performance of the MIT
 spinning arts club.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;electric-skateboard&quot;&gt;Electric Skateboard&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Electric_Skateboard&quot;&gt;Electric Skateboard&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;skate.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;skate640x640.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2017- For the class Intro to Making at MIT, my friends and I built an Electric
 Skateboard.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;the-awakening-unfinished-text-based-game&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itf.github.io&#x2F;the-awakening&#x2F;&quot;&gt;The awakening (unfinished). Text based game&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_awakening_(unfinished)._Text_based_game&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itf.github.io&#x2F;the-awakening&#x2F;&quot;&gt;The awakening (unfinished). Text based game&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;1596002418308854.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;1596002418308854.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
 2017- An experimental text based game inspired by “the space under the
 window”, and by “A Dark Room”.&lt;&#x2F;p&gt;
@@ -3133,7 +3157,7 @@ based on the interaction with the user.&lt;&#x2F;p&gt;
 the moment.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;facebook-advertisement-for-lazuli-motel&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;lazulimotel.com&#x2F;&quot;&gt;Facebook advertisement for Lazuli Motel&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Facebook_advertisement_for_Lazuli_Motel&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;lazulimotel.com&#x2F;&quot;&gt;Facebook advertisement for Lazuli Motel&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;lazuli.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;lazuli.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2017- Created ad campaigns for the Lazuli Motel website I previously created
 with a tight budget. For about $1 a day for 3 months, it brought
@@ -3145,7 +3169,7 @@ contacted by phone during the ad campaign it seems that the campaign was
 fairly successful.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;lazuli-motel-website-and-pictures&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;lazulimotel.com&#x2F;&quot;&gt;Lazuli Motel Website and pictures&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Lazuli_Motel_Website_and_pictures&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;lazulimotel.com&#x2F;&quot;&gt;Lazuli Motel Website and pictures&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;lazuli.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;lazuli.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2017- I took HDR pictures from the rooms of Lazuli Motel in Botuca, SP,
 Brazil, and created a website for it, using Hugo as a static website
@@ -3157,20 +3181,20 @@ already loaded information, and if the user&#x27;s network fails, they can
 still continue to see the information that has already been loaded.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;imagenet-download&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;imagenet-download&quot;&gt;Imagenet-download&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Imagenet-download&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;imagenet-download&quot;&gt;Imagenet-download&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;2016- A simple command line tool to download images from the imagenet dataset
 while storing them with humanreadable names and ignoring images that are
 too small.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;led-panel-30x60px&quot;&gt;&lt;a href=&quot;&#x2F;led-panel.html&quot;&gt;Led Panel 30x60px&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Led_Panel_30x60px&quot;&gt;&lt;a href=&quot;&#x2F;led-panel.html&quot;&gt;Led Panel 30x60px&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;cloudsRainbow.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;cloudsRainbow.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2016- My friends and I built a 30x60 pixels led panel, using Ws2812b strips. I
 programmed the led panel graphics using Python, in a way that makes it
 easy to combine patterns and functions into new patterns.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;maslab&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;maslab.mit.edu&#x2F;wiki&#x2F;index.php?title=Team_Six&#x2F;Final_Paper&quot;&gt;Maslab&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Maslab&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;maslab.mit.edu&#x2F;wiki&#x2F;index.php?title=Team_Six&#x2F;Final_Paper&quot;&gt;Maslab&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;janky.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;janky.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2015- We built Cocoabot, a robot capable of finding cubes on a field and
 stacking them by color. Cocoabot had around 10.000 lines of C++11 code,
@@ -3181,32 +3205,32 @@ code, debugging the code with GDB and finding memory leaks. Documented
 on tinyurl.com&#x2F;cocoabot.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;l-shaped-wooden-loft&quot;&gt;L shaped wooden loft&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;L_shaped_wooden_loft&quot;&gt;L shaped wooden loft&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;loft.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;loft640x640.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2013- Designed and built an L-shaped wooden loft for me and my roommate during
 my first month at MIT. The loft was very stable and at one moment had
 over 6 people on top of it jumping and moving to confirm its stability.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;seeing-around-corners-with-a-mobile-phone-synthetic-aperture-audio-imaging&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.academia.edu&#x2F;10724943&#x2F;Seeing_around_corners_with_a_mobile_phone_Synthetic_aperture_audio_imaging&quot;&gt;Seeing around corners with a mobile phone? Synthetic aperture audio imaging&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Seeing_around_corners_with_a_mobile_phone?_Synthetic_aperture_audio_imaging&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.academia.edu&#x2F;10724943&#x2F;Seeing_around_corners_with_a_mobile_phone_Synthetic_aperture_audio_imaging&quot;&gt;Seeing around corners with a mobile phone? Synthetic aperture audio imaging&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15959124860287838.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15959124860287838.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2013- Undergraduate Researcher contribution to the paper &amp;quot;Seeing around corners with a mobile phone? Synthetic aperture audio imaging&amp;quot;, in the Camera Culture group in the Media Lab.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;iol-study-guide-unfinished-pt-br&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;static&#x2F;pdf&#x2F;Linguistica0.8.pdf&quot;&gt;IOL study guide (unfinished) (pt-br)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;IOL_study_guide_(unfinished)_(pt-br)&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;static&#x2F;pdf&#x2F;Linguistica0.8.pdf&quot;&gt;IOL study guide (unfinished) (pt-br)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;iol.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;iol.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2012- Study guide for the International Linguistics Olympiad, in pt-br. I
 wrote it as I was preparing to take part in IOL 2012 in Slovenia, in
 order the following Brazilian teams to prepare for IOL.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;translation-of-ipho-formula-sheet&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;static&#x2F;pdf&#x2F;formulasheet-pt_br1.0.pdf&quot;&gt;Translation of IPhO formula sheet.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Translation_of_IPhO_formula_sheet.&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;static&#x2F;pdf&#x2F;formulasheet-pt_br1.0.pdf&quot;&gt;Translation of IPhO formula sheet.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;ipho.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;ipho.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2012- Translation of the 2012 IPhO formula sheet from English to Portuguese,
 with minor edits to examples to make some concepts easier to understand.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;alone-in-the-darkness-text-based-game-inform7&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;iplayif.com&#x2F;?story=https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;Interactive-Narrative-Inform7&#x2F;raw&#x2F;master&#x2F;aloneinthedarkness.z8&quot;&gt;Alone in the darkness. Text based game (inform7)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Alone_in_the_darkness._Text_based_game_(inform7)&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;iplayif.com&#x2F;?story=https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;Interactive-Narrative-Inform7&#x2F;raw&#x2F;master&#x2F;aloneinthedarkness.z8&quot;&gt;Alone in the darkness. Text based game (inform7)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15960021873952305.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15960021873952305.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
 2012- A text based game inspired by “the space under the window”, written in
 inform 7.&lt;&#x2F;p&gt;
@@ -3215,17 +3239,17 @@ based on the interaction with the user.&lt;&#x2F;p&gt;
 &lt;p&gt;2019- The game was ported to javascript and now supports click instead of writing see: &lt;a href=&quot;&#x2F;a-game-from-the-past.html&quot;&gt;alone in the darkness&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;olimpiadas-cientificas-youtube-channel&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCUT87IB960L3foyy09gjmtw&quot;&gt;Olimpíadas Cientificas (Youtube Channel)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpíadas_Cientificas_(Youtube_Channel)&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCUT87IB960L3foyy09gjmtw&quot;&gt;Olimpíadas Cientificas (Youtube Channel)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2012-2015. Youtube channel to spread information about Brazilian Science Olympiads. We interviewed participants of science competitions.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;vida-de-olimpico-backup&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;index.html&quot;&gt;Vida de Olímpico (backup)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Vida_de_Olímpico_(backup)&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;index.html&quot;&gt;Vida de Olímpico (backup)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2012-2015 Besides organizing my own personal website about science competitions, I helped other 10 students create and spread their blogs about their science competition experiences. I dare say it was a huge success and many students commented on our blogs saying we provided inspirations to them to take part in science competitions.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;ivan-vida-de-olimpico-backup&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;index.html&quot;&gt;Ivan - Vida de Olímpico (backup)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Ivan_-_Vida_de_Olímpico_(backup)&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;index.html&quot;&gt;Ivan - Vida de Olímpico (backup)&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2012- 2013. Personal blog with stories about the time when I took part in Science Olympiads. At its peak, it received 50 unique visitors per day and top posts had a few dozen comments. It was created as a way to debunk myths about science olympiads as well as their competitors, as well as a way to stimulate people to take part in science olympiads, specially those from smaller towns around Brazil.&lt;br &#x2F;&gt;
 I was originally from a small town and I didn&#x27;t know how other people prepared for science competitions, since no one was taking part on them in my hometown. Through my blog I tried to provide a way to help people in similar situations.&lt;br &#x2F;&gt;
@@ -3233,7 +3257,7 @@ Some of the readers of the blog were later selected to represent Brazil on IBO, 
 There was a problem with the wordpress database and the website went offline after a few years without being maintained; now we have a snapshot of how it was so others can still access it.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;portfolio-project&quot;&gt;
-&lt;h1 id=&quot;olimpiadas-cientificas&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;&quot;&gt;Olimpíadas Científicas&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpíadas_Científicas&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;&quot;&gt;Olimpíadas Científicas&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;2009- now. First Brazilian website to help high school students and teachers to
 participate in Science Olympiads.&lt;br &#x2F;&gt;
@@ -3285,10 +3309,10 @@ tinyurl.com&#x2F;ocientificas.&lt;&#x2F;p&gt;
         <link rel="alternate" href="/emacs-drag-drop-pdfs-paste-html-custom-templates.html" type="text/html"/>
         <id>/emacs-drag-drop-pdfs-paste-html-custom-templates.html</id>
         
-        <content type="html">&lt;h1 id=&quot;update&quot;&gt;UPDATE:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;UPDATE:&quot;&gt;UPDATE:&lt;&#x2F;h1&gt;
 &lt;p&gt;This documents my first experience with programming in elisp. In restrospect, I was really bad at it. This post then shows that you can still make something with elisp even if you are bad at it.&lt;&#x2F;p&gt;
 &lt;p&gt;A slightly better example of making something with elisp is on my package clipboard2org, a tiny package to paste html or picture. See &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&#x2F;blob&#x2F;master&#x2F;clipboard2org.el&quot;&gt;clipboard2org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;pdf-files-drag-drop&quot;&gt;PDF files drag-drop&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;PDF_files_drag-drop&quot;&gt;PDF files drag-drop&lt;&#x2F;h1&gt;
 &lt;p&gt;I wanted to be able to drag and drop pdf files, as well as drag and drop
 pdf URLs to emacs. The result of dragging should be to download the file
 to a directory under the same directory as the org file you are editing
@@ -3377,7 +3401,7 @@ fails back to the original drag and drop code.&lt;&#x2F;p&gt;
     
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;add&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;to&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;list&lt;&#x2F;span&gt; &amp;#39;dnd&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;protocol&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;alist &amp;#39;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;^https?.*&lt;span class=&quot;z-constant z-character z-escape z-lisp&quot;&gt;\\&lt;&#x2F;span&gt;.pdf&lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; .  org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;file&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;pdf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;url&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;dnd&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;protocol&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;custom-easy-templates&quot;&gt;Custom easy templates&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Custom_easy_templates&quot;&gt;Custom easy templates&lt;&#x2F;h1&gt;
 &lt;p&gt;Easy templates cannot run arbitrary code. They are handled by org-cycle,
 which is a function that handles every action that TAB performs in org
 mode.&lt;&#x2F;p&gt;
@@ -3423,7 +3447,7 @@ presses tab.&lt;&#x2F;p&gt;
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;with&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;eval&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;after&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;load&lt;&#x2F;span&gt; &amp;#39;org 
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;advice&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;add &lt;span class=&quot;z-constant z-character z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-lisp&quot;&gt;#&lt;&#x2F;span&gt;&amp;#39;org-cycle&lt;&#x2F;span&gt; :before&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;until&lt;&#x2F;span&gt;   &lt;span class=&quot;z-constant z-character z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-lisp&quot;&gt;#&lt;&#x2F;span&gt;&amp;#39;&lt;&#x2F;span&gt; org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;try&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;my&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;template&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;function&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;pasting-html-in-org-mode&quot;&gt;Pasting HTML in org mode&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Pasting_HTML_in_org_mode&quot;&gt;Pasting HTML in org mode&lt;&#x2F;h1&gt;
 &lt;p&gt;This was inspired by
 &lt;a href=&quot;https:&#x2F;&#x2F;emacs.stackexchange.com&#x2F;questions&#x2F;12121&#x2F;org-mode-parsing-rich-html-directly-when-pasting&quot;&gt;this stack overflow question&lt;&#x2F;a&gt;. It suggested using &lt;code&gt;xclip&lt;&#x2F;code&gt; to access the
 clipboard.&lt;&#x2F;p&gt;
@@ -3795,7 +3819,7 @@ discrete time using &#x27;z&#x27;, instead of only continuous time using &#x27;s
         <content type="html">&lt;p&gt;Backup here:
 &lt;a href=&quot;&#x2F;html&#x2F;Groebner_Basis.html&quot;&gt;Groebner_Basis&lt;&#x2F;a&gt;
 Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;GroebnerBasis--Sage.pdf&quot;&gt;GroebnerBasis–Sage&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;figures&quot;&gt;Figures&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Figures&quot;&gt;Figures&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(1).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(1).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(2).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(2).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -3804,7 +3828,7 @@ Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;G
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(5).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(5).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(6).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(6).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(7).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(7).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;css&quot;&gt;CSS&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;CSS&quot;&gt;CSS&lt;&#x2F;h1&gt;
 &lt;p&gt;&amp;lt;.&#x2F;css&#x2F;sagemath.css&amp;gt;&lt;&#x2F;p&gt;
 </content>
         
@@ -3822,21 +3846,21 @@ Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;G
         <content type="html">&lt;p&gt;This is a summary of entrepreneurship resources available to MIT
 students. Those are my notes, taken during startmit. If there are any
 mistakes, please message me.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;martin-trust-center&quot;&gt;Martin Trust Center&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Martin_Trust_Center&quot;&gt;Martin Trust Center&lt;&#x2F;h1&gt;
 &lt;p&gt;Entrepreneur environment. Go there to meet people.&lt;br &#x2F;&gt;
 &lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;coaching&#x2F;&quot;&gt;Entrepreneur in residence&lt;&#x2F;a&gt;, entrepreneurs at MIT to help you.&lt;br &#x2F;&gt;
 Check the MTC website: &lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;sector-practice-leaders-spl&quot;&gt;Sector practice leaders SPL&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Sector_practice_leaders_SPL&quot;&gt;Sector practice leaders SPL&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;entrepreneurship.mit.edu&#x2F;sector-practice-leaders&#x2F;&quot;&gt;Sector practice leaders&lt;&#x2F;a&gt;, to help you with a specific industry.&lt;br &#x2F;&gt;
 For example:oint the biotech mailing list and hackingmedicine at
 &amp;lt;hackingmedicine.mit.edu&amp;gt; and &amp;lt;biotech.mit.edu&amp;gt;, or the
 &lt;a href=&quot;https:&#x2F;&#x2F;arts.mit.edu&#x2F;start&#x2F;entrepreneurship&#x2F;creative-arts-competition&#x2F;&quot;&gt;creative art competition&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;sandbox&quot;&gt;Sandbox&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Sandbox&quot;&gt;Sandbox&lt;&#x2F;h2&gt;
 &lt;p&gt;Fund and mentorship for any student grad or undergrad interested in
 trying entrepreneurship or start a company. $1k for doing market
 research and prototyping. They say mentorship is the most useful part of
 this program. &lt;a href=&quot;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&quot;&gt;http:&#x2F;&#x2F;sandbox.mit.edu&#x2F;&lt;&#x2F;a&gt;. February 11 2018 deadline.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-engine&quot;&gt;The engine&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_engine&quot;&gt;The engine&lt;&#x2F;h1&gt;
 &lt;p&gt;Affiliated to MIT but for profit. Help founders go from discovery of
 hadtech to commercialization.&lt;br &#x2F;&gt;
 If you have some hardtech that will take 10 to 20 years before
@@ -3855,34 +3879,34 @@ in the areas they invest:&lt;&#x2F;p&gt;
 &lt;li&gt;and the intersection of other new technology&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Check &lt;a href=&quot;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.engine.xyz&#x2F;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mit-innovation-initiative&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&quot;&gt;MIT innovation initiative&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;MIT_innovation_initiative&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&quot;&gt;MIT innovation initiative&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;If your path is fuzzy and you need help figuring out your area and what
 to do. Has a resource guide to help you navigate entrepreneurship at
 MIT: &lt;a href=&quot;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&quot;&gt;https:&#x2F;&#x2F;innovation.mit.edu&#x2F;resources&#x2F;&lt;&#x2F;a&gt;, it also shows what is
 happening now at MIT in innovation.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;deshpande-center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;deshpande.mit.edu&#x2F;&quot;&gt;Deshpande Center&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Deshpande_Center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;deshpande.mit.edu&#x2F;&quot;&gt;Deshpande Center&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Moving technology: lab to market. From research to spinout. Grant
 program funding and Mentorships. Has industry mentors and help with
 market discovery. It is close to entrepreneurs and investors and lots of
 events focused in awareness. Select, Direct and connect is their motto.
 This could be seen as a step before the engine. The grants are from 50k
 to 150k.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;mit-100k-competition&quot;&gt;MIT 100k competition.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;MIT_100k_competition.&quot;&gt;MIT 100k competition.&lt;&#x2F;h2&gt;
 &lt;p&gt;Workshop and Mentorship are advertised as being quite good. It
 encompasses 3 different programs 100k for pitch, 100k for accelerator,
 100k for launch. You should apply for all of them but specially to the
 ones that fits your better. Apply at &lt;a href=&quot;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&quot;&gt;http:&#x2F;&#x2F;www.mit100k.org&#x2F;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;tfp&quot;&gt;TFP&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;TFP&quot;&gt;TFP&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.rle.mit.edu&#x2F;translational&#x2F;&quot;&gt;Translational Fellowship
 program&lt;&#x2F;a&gt;. For when your technology is still very far away from
 commercialization. It is focused on researchers.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;legatum-center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;legatum.mit.edu&#x2F;&quot;&gt;Legatum Center&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Legatum_Center&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;legatum.mit.edu&#x2F;&quot;&gt;Legatum Center&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Improve global wellbeing.Put things in the field. Tactical clinics in
 emerging markets.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;tlo&quot;&gt;TLO&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;TLO&quot;&gt;TLO&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tlo.mit.edu&#x2F;&quot;&gt;Technology licensing office&lt;&#x2F;a&gt;. Talk to use to
 know if your research intellectual property belongs to MIT or to you.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;memsi-hongkong&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;memsi&#x2F;&quot;&gt;MEMSI hongkong.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;MEMSI_hongkong.&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;hkinnovationnode.mit.edu&#x2F;program&#x2F;memsi&#x2F;&quot;&gt;MEMSI hongkong.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Two programs. One during the summer: May 29 to June 9 2018 and and
 another during IAP. 1 day factory visit in china. Focuses in making and
 entrepreneurship. EE, MEch Also has
@@ -3890,24 +3914,24 @@ entrepreneurship. EE, MEch Also has
 Entrepreneurship and FinTech Integrator, August 25 to September first.
 Useful for going abroad and working with people from a different
 culture.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;6-928-16-990-15-s67&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;grad&quot;&gt;6.928, 16.990, 15.s67&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;6.928,_16.990,_15.s67&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;grad&quot;&gt;6.928, 16.990, 15.s67&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Leading creative teams.&lt;br &#x2F;&gt;
 Learn to build high performing teams. Useful for startups even though it
 is not focused in startups per se. Also useful to become a more
 impactful engineer and professional.&lt;&#x2F;p&gt;
 &lt;p&gt;Spring 2018, Friday 9:30am to 12:30pm. 9 Units&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;gordon-mit-engineering-leadership-program&quot;&gt;Gordon-MIT engineering leadership program.&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Gordon-MIT_engineering_leadership_program.&quot;&gt;Gordon-MIT engineering leadership program.&lt;&#x2F;h1&gt;
 &lt;p&gt;Year long program for next year. GEL program 18 units total. They
 recommend registering for
 &lt;a href=&quot;https:&#x2F;&#x2F;gelp.mit.edu&#x2F;students&#x2F;engineering-innovation-design&quot;&gt;ESD.051,6.902, Engineering Innovation &amp;amp; Design&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;https-lemelson-mit-edu-studentprize-lemelson-mit-student&quot;&gt;[[&lt;a href=&quot;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&quot;&gt;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&lt;&#x2F;a&gt;][Lemelson-MIT student&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;[[https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize][Lemelson-MIT_student&quot;&gt;[[&lt;a href=&quot;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&quot;&gt;https:&#x2F;&#x2F;lemelson.mit.edu&#x2F;studentprize&lt;&#x2F;a&gt;][Lemelson-MIT student&lt;&#x2F;h2&gt;
 &lt;p&gt;prize]].&lt;&#x2F;p&gt;
 &lt;p&gt;:CUSTOM_ID: lemelson-mit-student-prize.&lt;&#x2F;p&gt;
 &lt;p&gt;Celebrating inventions. Focuses on tested prototype of tech based
 invention. Having patents before applying is encouraged but not
 required. Offers $10k for undergrad teams. 15k for grad. The
 applications for 2019 open in april.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mit-venture-mentoring&quot;&gt;&lt;a href=&quot;&#x2F;vms.mit.edu.&quot;&gt;MIT venture mentoring&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;MIT_venture_mentoring&quot;&gt;&lt;a href=&quot;&#x2F;vms.mit.edu.&quot;&gt;MIT venture mentoring&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;You don&#x27;t need to have a technology venture. It can be any area. The
 venture can be in the idea bench of lab bench. As long as it is a
 business we can take.&lt;&#x2F;p&gt;
@@ -3919,7 +3943,7 @@ time. The mentors assign themselves to the students. MIT venture
 mentoring commits to a longterm relationship (after you graduate we are
 still here for you). They also have rules for the advisors, so you don&#x27;t
 have to worry about advisors with hidden agendas.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;boston-seed-capital&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.bostonseed.com&#x2F;&quot;&gt;Boston seed capital&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Boston_seed_capital&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.bostonseed.com&#x2F;&quot;&gt;Boston seed capital&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Angel round. Seed round. Go to investors that usually focus in your
 area. They usually focus in consumer digitals (ai, etc). Usually
 software. Resources are CEO experts.
@@ -3927,17 +3951,17 @@ software. Resources are CEO experts.
 amazing angel mentors.&lt;&#x2F;p&gt;
 &lt;p&gt;Social events. Easier to go as an mit student. Boston is one of the best
 cities to start a venture.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;mit-ideas-global-challenge&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;studentlife.mit.edu&#x2F;ideas&quot;&gt;MIT ideas global challenge&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;MIT_ideas_global_challenge&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;studentlife.mit.edu&#x2F;ideas&quot;&gt;MIT ideas global challenge&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Positive impact in the world. Ideas global challenge. Social
 entrepreneurship. Up to 15k.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;joe-caruso&quot;&gt;Joe Caruso&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Joe_Caruso&quot;&gt;Joe Caruso&lt;&#x2F;h1&gt;
 &lt;p&gt;Advocate for entrepreneurs. General input, generalist, brainstorm, talk
 about founder and technology issues. Very generic resource. jcaruso at
 bantam group.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;maschallenge-startup-benefits&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;masschallenge.org&#x2F;startup&#x2F;good-benefits&quot;&gt;Maschallenge startup benefits.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Maschallenge_startup_benefits.&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;masschallenge.org&#x2F;startup&#x2F;good-benefits&quot;&gt;Maschallenge startup benefits.&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Non profit. 0 equity. 1.5M support. Startups that are ready. Waterhole
 for the local innovation community.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;cic&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cic.com&#x2F;&quot;&gt;CIC&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;CIC&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;cic.com&#x2F;&quot;&gt;CIC&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Cambridge innovation center. Kendalsquare sloanm grad. Broadway and
 third. one of the Densest cluster of startups in the world. Host 100
 events per month. Cic.com. Blog , podcast and newsletter.&lt;&#x2F;p&gt;
@@ -3958,7 +3982,7 @@ events per month. Cic.com. Blog , podcast and newsletter.&lt;&#x2F;p&gt;
 audio. If you don&#x27;t know what I&#x27;m talking about, I&#x27;d recommend putting
 on headphones and listening to the
 &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IUDTlvagjJA&quot;&gt;virtual barber shop&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;what-makes-audio-binaural&quot;&gt;What makes audio binaural?&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;What_makes_audio_binaural?&quot;&gt;What makes audio binaural?&lt;&#x2F;h1&gt;
 &lt;p&gt;In few words, you can detect from which location a sound is coming from
 by detecting the delay (difference in phase) between the ears, which can
 reach $\frac{25cm}{330m&#x2F;s} \approx 0.8ms$. However, we can localize the
@@ -3967,7 +3991,7 @@ provides us with one constraint. The rest of the information comes from
 how frequencies are absorbed by the head, outer ear and body are
 direction dependent; as well as the difference in audio intensity
 between the ears.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;programs-that-use-hrtf&quot;&gt;Programs that use HRTF&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Programs_that_use_HRTF&quot;&gt;Programs that use HRTF&lt;&#x2F;h1&gt;
 &lt;p&gt;The response of each ear based on the direction of the sound is called
 &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Head-related_transfer_function&quot;&gt;Head-related transfer function (hrtf)&lt;&#x2F;a&gt;. Multiple programs can make use of HRTF in
 order to localize a sound source. Games that use
@@ -3978,7 +4002,7 @@ Another program is
 It allows you to convert 5.1 audio into binaural audio by localizing the
 sound that would come from each of the speakers. This makes watching
 movies with a headphone a fairly pleasing experience.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;basic-idea&quot;&gt;Basic idea&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Basic_idea&quot;&gt;Basic idea&lt;&#x2F;h1&gt;
 &lt;p&gt;It is easy to set up audio pipes using jack. I usually install
 &lt;a href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt; to do
 so, since it is extremely user friendly. Therefore, if I can setup a
@@ -3986,8 +4010,8 @@ simple jack application that uses a simple GUI to decide the location of
 an audio source and then play the audio on headphones, it should allow
 me to do things such as multiaudio or having some sound sound like it is
 moving around me.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;about-the-tools&quot;&gt;About the tools&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;jack&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.jackaudio.org&#x2F;&quot;&gt;JACK&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;About_the_tools&quot;&gt;About the tools&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;JACK&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.jackaudio.org&#x2F;&quot;&gt;JACK&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;(&lt;a href=&quot;http:&#x2F;&#x2F;kxstudio.linuxaudio.org&#x2F;Applications:Cadence&quot;&gt;Cadence&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;:CUSTOM_ID: jack-cadence&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
@@ -4005,7 +4029,7 @@ client that can take interface with the audio from other applications.&lt;&#x2F;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;Cadence is a set of tools that make using JACK much easier. I have never
 been able to install JACK, nor use it without installing Cadence.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;zita-convolver&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;directory.fsf.org&#x2F;wiki&#x2F;Zita-convolver&quot;&gt;Zita Convolver&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Zita_Convolver&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;directory.fsf.org&#x2F;wiki&#x2F;Zita-convolver&quot;&gt;Zita Convolver&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Install from libzita-convolver.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Zita convolver is a C++ library implementing a real-time convolution
@@ -4014,7 +4038,7 @@ sizes to provide both low delay and efficient CPU use.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;In other words, Zita Convolver is a very fast and simple way to apply an
 impulse response to audio!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;qt&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.qt.io&#x2F;&quot;&gt;QT&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;QT&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.qt.io&#x2F;&quot;&gt;QT&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;I wanted the tool to have a gui. QT is one that is cross-platform.&lt;&#x2F;p&gt;
 </content>
         
@@ -4032,7 +4056,7 @@ impulse response to audio!&lt;&#x2F;p&gt;
         <content type="html">&lt;p&gt;My friends and I built an led matrix with 30x60 pixels. This post will
 focus mainly on the software, but first, let&#x27;s skim through the
 hardware.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;material&quot;&gt;Material:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Material:&quot;&gt;Material:&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;70 meters of ws2812 strips&lt;&#x2F;li&gt;
 &lt;li&gt;A 90 amps, 5v power supply&lt;&#x2F;li&gt;
@@ -4044,7 +4068,7 @@ hardware.&lt;&#x2F;p&gt;
 &lt;li&gt;Hot glue&lt;&#x2F;li&gt;
 &lt;li&gt;Plywood, 2x3s pieces of wood and diffuse vinyl fabric for the frame.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;construction&quot;&gt;Construction&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Construction&quot;&gt;Construction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;ledbuilding.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;ledbuilding640x640.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The construction was simple, but took around 40 man hours.&lt;&#x2F;p&gt;
 &lt;p&gt;First, we cut all the Led strips into 2meter strips, and soldered header
@@ -4063,7 +4087,7 @@ the LEDs using a stripped Ethernet cable.&lt;&#x2F;p&gt;
 &lt;p&gt;So far, the main difficulty was handling the voltage drop caused by
 90amps going through the wires. Just get larger wires and you&#x27;ll be good
 to go, as long as you calculate the voltage drop before building it.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;software&quot;&gt;Software&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Software&quot;&gt;Software&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;panel.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;panel.jpg&quot; alt=&quot;img&quot; title=&quot;Panel&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The software of this project was pretty fun to code and it is pretty fun
 to use in my opinion.&lt;&#x2F;p&gt;
@@ -4085,7 +4109,7 @@ communication through UDP &#x2F; WebRTC 7- Should run on Linux, Windows and
 Mac.&lt;&#x2F;p&gt;
 &lt;p&gt;This will be written in the order that things were coded. You should
 skip direct to the patterns and effects session to see the cool parts!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;starting&quot;&gt;Starting&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Starting&quot;&gt;Starting&lt;&#x2F;h2&gt;
 &lt;p&gt;I started programming the led panel long before I had the LED panel. So
 the first thing I needed, in my opinion, was a fake led panel.&lt;&#x2F;p&gt;
 &lt;p&gt;I found a friend&#x27;s project &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mlsteele&#x2F;curtain&quot;&gt;Iron
@@ -4110,7 +4134,7 @@ edge cases by making the screen &amp;quot;repeatable and infinite&amp;quot; i.e.
 address the pixel -1 you go back to the right most pixel.&lt;&#x2F;p&gt;
 &lt;p&gt;After all the basics were built it was time to start building the
 patterns.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;patterns-and-effects&quot;&gt;Patterns and effects&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Patterns_and_effects&quot;&gt;Patterns and effects&lt;&#x2F;h2&gt;
 &lt;p&gt;Patterns objective:&lt;&#x2F;p&gt;
 &lt;p&gt;1- Be easy to modify or add effects (example: increase speed, change
 colors, etc) 2- Be easy to combine 3- Possible to save to a file and
@@ -4136,7 +4160,7 @@ create a new object that implements a function that generates this
 particulat image.&lt;&#x2F;p&gt;
 &lt;p&gt;Instead, I decided to make the patterns functions that, when possible,
 don&#x27;t haven an internal state.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;why-no-internal-state&quot;&gt;Why no internal state?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Why_no_internal_state?&quot;&gt;Why no internal state?&lt;&#x2F;h3&gt;
 &lt;p&gt;The main advantage of not having an internal state is that it allows one
 to easily modify the patterns. Let&#x27;s say that we want to generate a
 circle that increases and decreases its size in each frame. One option
@@ -4147,7 +4171,7 @@ works, but is rather hard to modify.&lt;&#x2F;p&gt;
 takes as its input something that can be used to generate the circle
 radius. At each step, we can have this input change, and, this way, we
 can create any kind of pattern that involves circles that change sizes.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;what-about-this-input&quot;&gt;What about this input?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;What_about_this_input?&quot;&gt;What about this input?&lt;&#x2F;h3&gt;
 &lt;p&gt;You might ask now, what about this input? Wouldn&#x27;t it be very specific
 to each pattern and make it hard to modify or combine them? In theory,
 this could be the case if you don&#x27;t make the input generic enough. In
@@ -4158,7 +4182,7 @@ necessary information related to patterns is stored. It stores the frame
 number, the canvas that will contain the image that will be generated,
 the radius of the circle, audio information, etc. And any pattern could
 potentially modify it or have it modified by functions!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;fast-development&quot;&gt;Fast development&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Fast_development&quot;&gt;Fast development&lt;&#x2F;h3&gt;
 &lt;p&gt;After defining the input to patterns all the development got faster.
 Patterns were defined as &amp;quot;Functions that take pattern inputs and return
 pattern inputs&amp;quot; . Functions were defined as &amp;quot;Functions that take
@@ -4178,7 +4202,7 @@ was not enough to generate arbitrarily complex functions.&lt;&#x2F;p&gt;
 &lt;p&gt;The next milestone on the development, was when I created the function
 &amp;quot;arg&amp;quot;. Arg is the only function in the code that doesn&#x27;t immediately
 modify a pattern.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;what-is-arg&quot;&gt;What is arg?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;What_is_arg?&quot;&gt;What is arg?&lt;&#x2F;h3&gt;
 &lt;p&gt;I needed a way to modify the aruments to the functions. However, since
 every function took a pattern and every pattern took a pattern input,
 there was no where to modify the arguments themselves besides hard
@@ -4194,7 +4218,7 @@ number. It is a pattern that evolves in time!&lt;&#x2F;p&gt;
 &lt;p&gt;After arg was defined, lots of other patterns and functions were
 created. Patterns that opened images, functions that took the mean of
 patterns, etc.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;problems-with-lack-of-states&quot;&gt;Problems with lack of states.&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Problems_with_lack_of_states.&quot;&gt;Problems with lack of states.&lt;&#x2F;h3&gt;
 &lt;p&gt;However, the design choice of abolishing internal states could only me
 so far. I wanted to create transitions between patterns and patterns
 such as the snake game.&lt;&#x2F;p&gt;
@@ -4209,7 +4233,7 @@ can&#x27;t be modified by other patterns. Even with those limitations, those
 patterns could make extensive use of the rest of the functions. As soon
 as I created a snake game pattern it was possible to blur the snakes,
 change their color and make them brighter and darker with the rithm..&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;other-small-detais&quot;&gt;Other small detais&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Other_small_detais&quot;&gt;Other small detais&lt;&#x2F;h2&gt;
 &lt;p&gt;This covers most of the development of the software. The audio
 information are functions inside the pattern input, and any pattern can
 make use of the audio.&lt;&#x2F;p&gt;
@@ -4231,9 +4255,9 @@ In order to run it at fast speeds, you need to use pypy.&lt;&#x2F;p&gt;
         <link rel="alternate" href="/linear-panorama.html" type="text/html"/>
         <id>/linear-panorama.html</id>
         
-        <content type="html">&lt;h1 id=&quot;summary&quot;&gt;Summary:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;Summary:&quot;&gt;Summary:&lt;&#x2F;h1&gt;
 &lt;p&gt;Photographing linear panoramas of murals, in a place with poor light conditions, and short distance to the wall.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
 &lt;p&gt;Photographing the murals in my dorm is a really challenging task. The
 distance between the walls in the corridor is between 1.5m to 1.7m and
 the height of the murals is approximately 2m.&lt;&#x2F;p&gt;
@@ -4243,7 +4267,7 @@ besides a simple octopus floor lamp with yellowish incandescent lights.&lt;&#x2F
 linear panoramas (click for full size)
 &lt;a href=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;5&#x2F;5e&#x2F;BS.jpg&quot;&gt;&lt;img src=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;thumb&#x2F;5&#x2F;5e&#x2F;BS.jpg&#x2F;798px-BS.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;5&#x2F;5b&#x2F;BC.jpg&quot;&gt;&lt;img src=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;thumb&#x2F;5&#x2F;5b&#x2F;BC.jpg&#x2F;800px-BC.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Canon T2i with &lt;a href=&quot;http:&#x2F;&#x2F;www.magiclantern.fm&#x2F;&quot;&gt;&lt;em&gt;Magic Lantern&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;
 installed&lt;&#x2F;li&gt;
@@ -4252,14 +4276,14 @@ a different company)&lt;&#x2F;li&gt;
 &lt;li&gt;Octopus floor lamp (any floor lamp would work)&lt;&#x2F;li&gt;
 &lt;li&gt;Tripod (set to around 1m)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;software&quot;&gt;Software&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Software&quot;&gt;Software&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Enfuse&lt;&#x2F;li&gt;
 &lt;li&gt;Macrofusion&lt;&#x2F;li&gt;
 &lt;li&gt;Hugin&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;work-flow&quot;&gt;Work Flow&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;calibrate-the-lens&quot;&gt;Calibrate the Lens.&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Work_Flow&quot;&gt;Work Flow&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Calibrate_the_Lens.&quot;&gt;Calibrate the Lens.&lt;&#x2F;h2&gt;
 &lt;p&gt;If your lens are not calibrated, this should be the first step, if not,
 skip this session. At first, take a picture of a mural in a way that
 there are many clear straight lines in the image. Load the image in
@@ -4270,7 +4294,7 @@ vertical lines. However, do not choose horizontal line on the options.&lt;&#x2F;
 &lt;p&gt;If you are using a non standard lens, such as the Samyang 8mm, it is
 sometimes better to calibrate the lens for the approximate distance that
 you are gonna take the pictures from.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;taking-the-pictures&quot;&gt;Taking the pictures.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Taking_the_pictures.&quot;&gt;Taking the pictures.&lt;&#x2F;h2&gt;
 &lt;p&gt;Set your tripod to be about half of the right of the wall your are
 photographing (in case it is very near you). If it is farther, or you
 are not using fish-eye lens this won&#x27;t affect you much.&lt;&#x2F;p&gt;
@@ -4290,7 +4314,7 @@ shoot on shooting preferences of Magic Lantern, if you use a canon dlsr.&lt;&#x2
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_1.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_2.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_3.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;fusing-the-images&quot;&gt;Fusing the images&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Fusing_the_images&quot;&gt;Fusing the images&lt;&#x2F;h2&gt;
 &lt;p&gt;:CUSTOM_ID: fusing-the-images&lt;&#x2F;p&gt;
 &lt;p&gt;To fuse the images, you should use
 &lt;a href=&quot;http:&#x2F;&#x2F;wiki.panotools.org&#x2F;Enfuse&quot;&gt;Enfuse&lt;&#x2F;a&gt;. Enfuse is a command line
@@ -4301,7 +4325,7 @@ Macrofusion is a fast, simple and responsive GUI for Enfuse. Macrofusion
 makes it easy to choose the weights of exposure, contrast and saturation
 when fusing the images.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_enfused.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_enfused.jpg&quot; alt=&quot;img&quot; title=&quot;Mural enfused &quot; &#x2F;&gt;&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;straightening-the-images&quot;&gt;Straightening the images.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Straightening_the_images.&quot;&gt;Straightening the images.&lt;&#x2F;h2&gt;
 &lt;p&gt;Open the image in Hugin, and load the lens configuration for your lens.&lt;&#x2F;p&gt;
 &lt;p&gt;Choose a rectilinear projection in Hugin&#x27;s fast preview window.&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;hugin_options.png&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
@@ -4315,12 +4339,12 @@ SourceForge page&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 is enough to fix the image colors. And you just need to stitch the
 image.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_final.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_final.jpg&quot; alt=&quot;img&quot; title=&quot;Mural final &quot; &#x2F;&gt;&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;taking-the-other-pictures&quot;&gt;Taking the other pictures&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Taking_the_other_pictures&quot;&gt;Taking the other pictures&lt;&#x2F;h2&gt;
 &lt;p&gt;Move the camera to a new position and leave some overlap between the
 images. It doesn&#x27;t matter how much overlap you are leaving between the
 images, in general, what matters is that the images overlap in a line
 that can contain small errors.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;stitching&quot;&gt;Stitching&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Stitching&quot;&gt;Stitching&lt;&#x2F;h2&gt;
 &lt;p&gt;The images of the linear panorama should be added one at a time,
 therefore, you should start with a image that would be in the middle and
 then move to the corners. Since this is a tutorial I will stitch only 2
@@ -4346,7 +4370,7 @@ the result from a single image.&lt;&#x2F;p&gt;
 change only one image at a time. The parameters that you should optimize
 are EV, Er and Eb. Optimizing the lens parameters usually result in poor
 blending for linear panoramas.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;adding-masks&quot;&gt;Adding masks&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Adding_masks&quot;&gt;Adding masks&lt;&#x2F;h2&gt;
 &lt;p&gt;If the images don&#x27;t perfectly match on top of each other, you have 2
 options:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -4357,7 +4381,7 @@ others.&lt;&#x2F;li&gt;
 &lt;p&gt;Generally adding masks is faster and results in fewer problems.&lt;&#x2F;p&gt;
 &lt;p&gt;You should also use masks to force Hugin to choose the image that has
 the best resolution for areas where the details are important.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;stitching-1&quot;&gt;Stitching&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Stitching-1&quot;&gt;Stitching&lt;&#x2F;h2&gt;
 &lt;p&gt;After you&#x27;ve added all the images it is time to stitch. If you are
 stitching to JPG, you should keep the canvas size&#x27;s dimensions below
 2&lt;sup&gt;32&lt;&#x2F;sup&gt;-1.&lt;&#x2F;p&gt;
@@ -4367,7 +4391,7 @@ size if you simply want the largest resolution possible, and stitch!&lt;&#x2F;p&
 &lt;small&gt;
 Mural stitched using only 2 control points&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished your linear panorama.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;common-problems&quot;&gt;Common Problems&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Common_Problems&quot;&gt;Common Problems&lt;&#x2F;h2&gt;
 &lt;p&gt;The horizon might start to bend. In order to fix this, create a horizon
 line accross pictures, by adding control points for the horizon line
 across different images.&lt;&#x2F;p&gt;
@@ -4386,7 +4410,7 @@ across different images.&lt;&#x2F;p&gt;
         
         <content type="html">&lt;p&gt;This is a reblog from my &lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;2013&#x2F;03&#x2F;29&#x2F;i-was-admitted-in-harvard-mit-yale-and-princeton&#x2F;index.html&quot;&gt;old blog&lt;&#x2F;a&gt;. The missing college essay that was too personal is the one that was adapted to the &amp;lt;baby_deer.md&amp;gt; post.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;i-was-admitted-in-harvard-mit-yale-and-princeton&quot;&gt;I was admitted in Harvard, MIT, Yale and Princeton :)&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;I_was_admitted_in_Harvard,_MIT,_Yale_and_Princeton_:)&quot;&gt;I was admitted in Harvard, MIT, Yale and Princeton :)&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;[2013-03-29 Fri]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 Hey there! Today’s post will be in English; I really hope my usual readers won’t mind that.&lt;&#x2F;p&gt;
 &lt;p&gt;Now that all the university results were released, I wanted to share my essays – maybe some day they will help someone. And even if they don’t help, I hope someone will find them interesting :).&lt;&#x2F;p&gt;

@@ -18,7 +18,7 @@
         <id>/winding-number-in-geometric-algebra.html</id>
         
         <content type="html">&lt;p&gt;From the wikipedia, &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Winding_number#Complex_analysis&quot;&gt;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Winding_number#Complex_analysis&lt;&#x2F;a&gt;, we can see the definition of winding number in complex analysis. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;2-dimensions&quot;&gt;2 dimensions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;2_dimensions&quot;&gt;2 dimensions&lt;&#x2F;h1&gt;
 &lt;p&gt;And so we can adapt it to geometric algebra in 2 dimensions.&lt;&#x2F;p&gt;
 &lt;p&gt;Let $\partial M$ be a curve (we are calling it $\delta M$ because we will later perform the analysis using the fundamental theorem of calculus for geometric algebra), and let $j$, be the pseudo scalar in 2 dimensions.&lt;&#x2F;p&gt;
 &lt;p&gt;The winding number is:
@@ -32,7 +32,7 @@ $$\frac{1}{2\pi j} \oint_{\partial M}  d\mathbf{x} \frac{\mathbf{x}}{|x|^{-2}} =
 0,              &amp;amp; \text{otherwise}
 \end{cases}
 $$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;more-dimensions&quot;&gt;More dimensions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;More_dimensions&quot;&gt;More dimensions&lt;&#x2F;h1&gt;
 &lt;p&gt;We can extend this to more dimensions. Let $n$ be the dimensions, and let $A_n$ be the $n-1$ dimensional area of the $n$ dimensional unit sphere. Then:
 $$\frac{1}{A_n}\oint_{\partial M}  d\mathbf{x^{n-1}} \frac{\mathbf{x}}{|x|^n} = \int_{ M}  d\mathbf{x^n} \delta_\mathbf{x}(\mathbf{x}) = \begin{cases}
 1,&amp;amp; \text{if the volume includes the origin}\
@@ -40,7 +40,7 @@ $$\frac{1}{A_n}\oint_{\partial M}  d\mathbf{x^{n-1}} \frac{\mathbf{x}}{|x|^n} = 
 \end{cases}
 $$&lt;&#x2F;p&gt;
 &lt;p&gt;for 3 dimensions you should recognize this equation from the electrical field of a point charge in the origin.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;using-this-with-functions&quot;&gt;Using this with functions&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Using_this_with_functions&quot;&gt;Using this with functions&lt;&#x2F;h1&gt;
 &lt;p&gt;Let say you wanna find the $0$s of a function, and you are using the winding number algorithm &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=b7FxPsqfkOY&quot;&gt;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=b7FxPsqfkOY&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;TODO&lt;&#x2F;p&gt;
 </content>
@@ -449,15 +449,15 @@ pre {
         
         <content type="html">&lt;p&gt;Until 2010 there were no website in Brazil one could access to learn about what &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;International_Science_Olympiad&quot;&gt;science olympiads&lt;&#x2F;a&gt; existed nor how to study for them. The only way to learn about the existence of the competitions was to randomly search the internet until you found one you didn&#x27;t know about, or to study in a large school that prepared students for those competitions. However, even if you did find out about those competitions, there was no way for one to discover what books they should study or how to better prepare for the science olympiads. And for the small schools admins, it was hard for them to keep track of all the different dates where the competitions happened or when they should register for them!&lt;&#x2F;p&gt;
 &lt;p&gt;I was from a small town, and this had directly affected me, since I had to learn about the different competitions and prepare for them on my own. Because of this, once I moved to a larger city and started living away from family (when I was 15) to attend a larger school, I decided to start a blog and write about the main Brazilian Science Olympiads and how to study for them!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;projeto-olimpico&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itadeufa.wordpress.com&#x2F;&quot;&gt;Projeto Olímpico&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Projeto_Olímpico&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;itadeufa.wordpress.com&#x2F;&quot;&gt;Projeto Olímpico&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;After writing it for about a month, there was enough interest from friends that we changed the hosting from wordpress to &lt;a href=&quot;https:&#x2F;&#x2F;olimpiada.webnode.com.br&#x2F;&quot;&gt;webnode&lt;&#x2F;a&gt;, which allowed for a bit more customization.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;olimpiadas-webnode-com-br&quot;&gt;Olimpiadas.webnode.com.br&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpiadas.webnode.com.br&quot;&gt;Olimpiadas.webnode.com.br&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15746376229424477.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15746376229424477.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15746385825016527.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15746385825016527.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;At this time, more people decided to join the project, and we became a team of 3 people.  We started receiving comments from students from all over Brazil, thanking us for the project. We started posting information about all the competitions as things happened. You could access our website to know what competitions had their registration open, which ones were releasing results and so on. We also improved our study guides and created pages for each science olympiad explaining what they were. We were even deciding on standards such as &amp;quot;when writing a post about a result, the post contains a single image at the top with the symbol of the competition, and we end the post with &#x27;congratulations to all the winners!&#x27;&amp;quot;.&lt;&#x2F;p&gt;
 &lt;p&gt;We also bough our own domain! Olimpiadascientificas.com&lt;&#x2F;p&gt;
 &lt;p&gt;About 10 months later, in late 2011, our website got popular enough that Augusto, a student from very far away decided to help us! He had experience with creating websites and blogs, so we moved it to our own VM running wordpress!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;olimpiadascientificas-com&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20160112231415&#x2F;http:&#x2F;&#x2F;www.olimpiadascientificas.com&#x2F;&quot;&gt;Olimpiadascientificas.com&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Olimpiadascientificas.com&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20160112231415&#x2F;http:&#x2F;&#x2F;www.olimpiadascientificas.com&#x2F;&quot;&gt;Olimpiadascientificas.com&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;
 The website kept growing and the team kept growing. In 2012, when I appeared on Tv, newspapers and magazines, I advertised the website and we were getting Approximately 500 visits per day!&lt;&#x2F;p&gt;
 &lt;p&gt;Our team was amazing, we had probably over 30 people. Most of them only contributed with a single post or so, while others contributes with dozens, and also many different pages or study materials.  I&#x27;d say that anyone in Brazil preparing for an International Science Olympiad was using our website.  There were people who lived near my small hometown who were preparing for the International Astronomy and Astrophysics Olympiad by using material we had shared, and they went to IOAA. &lt;&#x2F;p&gt;
@@ -466,16 +466,16 @@ The website kept growing and the team kept growing. In 2012, when I appeared on 
 &lt;p&gt;We started another project, &lt;a href=&quot;https:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;&quot;&gt;Vida de olímpico&lt;&#x2F;a&gt; where people taking part in science competitions were writing blogs about their experiences. When I was in a small town, taking part in these competitions was a very lonely endeavor; by having a blog with other people sharing their experiences, the intention was to create a sense of community and also encourage people to keep going and keep studying and trying! Another intention was to debunk the myth that people taking part in those competitions had some type of divine gift that allowed them to be better than the others, since on the blogs we showed the amount of study that we had to put on. &lt;&#x2F;p&gt;
 &lt;p&gt;In my personal &amp;quot;vida de olímpico&amp;quot; blog, I was receiving around 50 visits per day and many comments and I truly believed things were a bit better because of all the information sharing we were promoting!&lt;&#x2F;p&gt;
 &lt;p&gt;Some of the people who started writing those blogs, started writing them when they were just starting, and after a while they were traveling the world to go to science camps on trips they had won, and to International Science Olympiads! It was fantastic seeing their development! &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-competitors-and-the-downfall&quot;&gt;The competitors and the downfall&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_competitors_and_the_downfall&quot;&gt;The competitors and the downfall&lt;&#x2F;h1&gt;
 &lt;p&gt;But soon we started having people wanting to create their own websites about science olympiads, and then use their website to share their own facebook groups for people to study and discuss and so on. There was a split, and with most of the people in olimpiadascientificas graduating, we were not going to update the website as often and it was harder to find people to take over for us, since they went to other websites.  Then there were some problems with one of the people in the team deleting all the other people from our team and I not handling it very well. So our website kinda died.&lt;&#x2F;p&gt;
 &lt;p&gt;The final blows to the website were when we stopped maintaining our wordpress server and because of vulnerabilities the website stopped being able to load. And later on, when we forgot to renew the domain and lost it.&lt;&#x2F;p&gt;
 &lt;p&gt;Our main &amp;quot;&lt;a href=&quot;https:&#x2F;&#x2F;noic.com.br&#x2F;&quot;&gt;competitor&lt;&#x2F;a&gt;&amp;quot; is still going strong, and they copied multiple parts of our style to the dot! Which makes me happy, because even though our website mostly died, there are still others doing exactly what we wanted to do! And they have enough people in their team that they can focus on producing original content rather than just reporting news! More producing knowledge rather than just sharing how to access knowledge. I  just wish the menu on their website was easier to use, since I find it very hard to find the study page for any of their subjects, since it involves 3 clicks and accessing 3 different pages, and I also wish that they had a more searchable name, so that other people would more readily find them instead of us.&lt;&#x2F;p&gt;
 &lt;p&gt;Our second &lt;a href=&quot;https:&#x2F;&#x2F;obmepeiros.com.br&#x2F;&quot;&gt;main competitor&lt;&#x2F;a&gt; went through the same rabbit hole we went once, but they went much deeper. In order to make their website cooler, they started adding more and more plugins, and images and javascript and all. It has reached the point where their website is so slow that I find it very bad to use… It is sad, since otherwise they&#x27;d be helping a lot more people than they currently are.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-memorial&quot;&gt;The memorial&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_memorial&quot;&gt;The memorial&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;pageviews.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;pageviews.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;After all the problems with wordpress and realizing that I wouldn&#x27;t be able to maintain the website, I made a &amp;quot;memorial&amp;quot;. I converted the website to a static generated website in jekyll, so it would be much faster. I deleted the news and posts and kept only the rest: information about the main science olympiads, how to study, and information about the teams. However, the saddest part was converting the &amp;quot;Vida de Olímpico&amp;quot; blogs to fixed pages, by using a webscrapper, since they were also could not be used anymore because of the un-maintained wordpress problems…&lt;&#x2F;p&gt;
 &lt;p&gt;We went from having 15k page views per day, on our most popular point, to now having only around 100 pageviews per day. I hope the students have been able to find the help they needed through other sources now.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;the-post-mortem&quot;&gt;The post-mortem&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;The_post-mortem&quot;&gt;The post-mortem&lt;&#x2F;h1&gt;
 &lt;p&gt;Recently I&#x27;ve added a web scrapper that inserts the news of all the main Brazilian Science Olympiad websites to our front page, in the hope of redirecting students to what are the best sources of information now.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;ocfront.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;ocfront.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;And in a few months I hope it will be possible for me to recover our original domain!&lt;&#x2F;p&gt;
@@ -494,7 +494,7 @@ The website kept growing and the team kept growing. In 2012, when I appeared on 
         <id>/baby-deer.html</id>
         
         <content type="html">&lt;p&gt;Taking care of a baby deer. College app essay, partially erased and adapted to protect personal information.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;baby-deer&quot;&gt;Baby deer&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Baby_deer&quot;&gt;Baby deer&lt;&#x2F;h1&gt;
 &lt;p&gt;When I was fourteen,  I was designated the responsibility of caring for a rescued newborn deer. A hunter had killed its mom and left it there to die. The deer was weak, dehydrated and hungry — on the brink between life and death.&lt;&#x2F;p&gt;
 &lt;p&gt;I named her “Lita.” In the beginning, she could barely bear her own weight. Each day I’d feed her with a little nursing bottle and play with her so she wouldn&#x27;t feel lonely. Day by day, she was growing stronger. After three weeks she was able to walk and eat by herself, making my job much easier. She was cute and gentle — she always followed me at home and asked me for caress,touching my hand with her head.&lt;&#x2F;p&gt;
 &lt;p&gt;I started getting tired of taking care of her because it required so much time, but I couldn&#x27;t go out and leave her alone. She was my responsibility. However, after one month I got bored and started to spend my time reading or playing on the computer. To be honest, I didn&#x27;t want to keep looking after her. My routine was monotonous: putting milk in her plate, petting her and cleaning up her mess.&lt;&#x2F;p&gt;
@@ -1553,12 +1553,12 @@ Kitchin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
         <id>/i3wm-screencasting-gifs.html</id>
         
         <content type="html">&lt;p&gt;I read an amazing &lt;a href=&quot;https:&#x2F;&#x2F;en.reddit.com&#x2F;r&#x2F;i3wm&#x2F;comments&#x2F;65vis5&#x2F;screenshot_commands_from_my_i3_config&#x2F;dgnic66&#x2F;&quot;&gt;comment on reddit&lt;&#x2F;a&gt; about how to very easily record the screen into gifs and I&#x27;ll report it here with some improvements. All of this can be used in any other window manager, as long as you can create keyboard shortcuts.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;create-shortcut-to-start-and-stop-screenrecording&quot;&gt;Create shortcut to start and stop screenrecording&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Create_shortcut_to_start_and_stop_screenrecording&quot;&gt;Create shortcut to start and stop screenrecording&lt;&#x2F;h1&gt;
 &lt;p&gt;First we create a shortcut to start and stop the screenrecording&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;bindsym&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Shift+Ctrl+Print exec &lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.files&#x2F;i3&#x2F;record-screen.sh gif&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;bindsym&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Shift+Mod4+Print exec &lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.files&#x2F;i3&#x2F;record-screen.sh ogv&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;record-screen-sh&quot;&gt;record-screen.sh&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;record-screen.sh&quot;&gt;record-screen.sh&lt;&#x2F;h1&gt;
 &lt;p&gt;This is the file where most things happen.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Dependencies:&lt;&#x2F;strong&gt; &lt;code&gt;byzanz-record&lt;&#x2F;code&gt; , &lt;code&gt;slop&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;It uses &lt;code&gt;byzanz&lt;&#x2F;code&gt; to record the screen, and &lt;code&gt;slop&lt;&#x2F;code&gt; to select which screen to record from, as well as the &lt;code&gt;--exec&lt;&#x2F;code&gt; flag. &lt;code&gt;--exec&lt;&#x2F;code&gt; makes it so &lt;code&gt;byzanz&lt;&#x2F;code&gt; records until that process exists. This allows us to control exactly for how long the recording will last since we can simply kill it using our shortcut.&lt;&#x2F;p&gt;
@@ -1591,7 +1591,7 @@ Kitchin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-kill z-shell&quot;&gt;kill&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;IS_RECORDING_PID&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;is-recording-sh&quot;&gt;is-recording.sh&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;is-recording.sh&quot;&gt;is-recording.sh&lt;&#x2F;h1&gt;
 &lt;p&gt;This is the process that when killed stops the recording. &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;!&#x2F;usr&#x2F;bin&#x2F;env bash&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
 &lt;&#x2F;span&gt;    
@@ -1601,8 +1601,8 @@ Kitchin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;sleep&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; 60&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-loop z-end z-shell&quot;&gt;done&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;improvements-and-changes&quot;&gt;Improvements and changes&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;making-the-gif-smaller&quot;&gt;Making the gif smaller&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Improvements_and_changes&quot;&gt;Improvements and changes&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Making_the_gif_smaller&quot;&gt;Making the gif smaller&lt;&#x2F;h2&gt;
 &lt;p&gt;Recording a gif using the above files will result in files that are unreasonably large. A 10s recording might take 10mb!&lt;&#x2F;p&gt;
 &lt;p&gt;Therefore the first thing we should do is optimize the gif so that it is smaller.  Luckily there is a program that does just that: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;kohler&#x2F;gifsicle&quot;&gt;gifsicle&lt;&#x2F;a&gt;. Since there are very few changes between each frame in a screencast, this can turn 10mb files into 100kb files!&lt;&#x2F;p&gt;
 &lt;p&gt;This is the relevant change:&lt;&#x2F;p&gt;
@@ -1611,23 +1611,23 @@ Kitchin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;gifsicle&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;batch&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;optimize&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-option z-shell&quot;&gt;=&lt;&#x2F;span&gt;3 &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;;&lt;span class=&quot;z-keyword z-operator z-logical z-continue z-shell&quot;&gt;;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;copying-the-file-to-the-clipboard&quot;&gt;Copying the file to the clipboard&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Copying_the_file_to_the_clipboard&quot;&gt;Copying the file to the clipboard&lt;&#x2F;h2&gt;
 &lt;p&gt;After you&#x27;ve save the file, it is useful to have it copied to the clipboard, so you can you use it in another place. In my case, I like being able to paste the screencast directly to my orgmode files by using my &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&#x2F;blob&#x2F;master&#x2F;clipboard2org.el&quot;&gt;clipboard2org package&lt;&#x2F;a&gt;, but you can use other programs.&lt;&#x2F;p&gt;
 &lt;p&gt;This depends on &lt;code&gt;xclip&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-echo z-shell&quot;&gt;echo&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-logical z-pipe z-shell&quot;&gt;|&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;xclip&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;selection&lt;&#x2F;span&gt; clipboard&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;t&lt;&#x2F;span&gt; text&#x2F;uri-list&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;displaying-a-notification-when-you-finish-recording&quot;&gt;Displaying a notification when you finish recording&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Displaying_a_notification_when_you_finish_recording&quot;&gt;Displaying a notification when you finish recording&lt;&#x2F;h2&gt;
 &lt;p&gt;I do not use polybar. So instead I use &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;vlevit&#x2F;notify-send.sh&quot;&gt;notify-send.sh&lt;&#x2F;a&gt; to send a notification when we finish the recording so I know that the command worked:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;&lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.config&#x2F;i3&#x2F;notify-send.sh&#x2F;notify-send.sh&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt; display  &lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;finished recording&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;recording-webms&quot;&gt;Recording webms&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Recording_webms&quot;&gt;Recording webms&lt;&#x2F;h2&gt;
 &lt;p&gt;Webms are better than gifs when supported. They are supported by basically everything, except IOS devices and internet explorer. In other words, it is even better than being supported everywhere haha. &lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;webm&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;)
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;byzanz-record&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;w&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;W&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;h&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;H&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;x&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;X&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;y&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;Y&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;c&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; --&lt;&#x2F;span&gt;exec&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-option z-shell&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;IS_RECORDING_SH&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-expansion z-parameter z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-variable z-shell&quot;&gt;$&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-shell&quot;&gt;FILE_NAME&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;&#x2F;span&gt;;&lt;span class=&quot;z-keyword z-operator z-logical z-continue z-shell&quot;&gt;;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Putting_it_all_together&quot;&gt;Putting it all together&lt;&#x2F;h2&gt;
 &lt;p&gt;This is the end result.  The &lt;strong&gt;Dependencies:&lt;&#x2F;strong&gt; &lt;code&gt;byzanz-record&lt;&#x2F;code&gt; , &lt;code&gt;slop&lt;&#x2F;code&gt;, &lt;code&gt;gifsicle&lt;&#x2F;code&gt;, &lt;code&gt;notify-send.sh&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;All  of the paths are based on the paths I&#x27;ve setup here, you should adapt them to your case.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;sh&quot; class=&quot;language-sh z-code&quot;&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;    &lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-begin z-shell&quot;&gt;#&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;!&#x2F;usr&#x2F;bin&#x2F;env bash&lt;&#x2F;span&gt;&lt;span class=&quot;z-comment z-line z-number-sign z-shell&quot;&gt;
@@ -1666,7 +1666,7 @@ Kitchin&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
     	&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;&lt;span class=&quot;z-meta z-group z-expansion z-tilde&quot;&gt;&lt;span class=&quot;z-variable z-language z-tilde z-shell&quot;&gt;~&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&#x2F;.config&#x2F;i3&#x2F;notify-send.sh&#x2F;notify-send.sh&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;i&lt;&#x2F;span&gt; display  &lt;span class=&quot;z-string z-quoted z-double z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;finished recording&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-keyword z-control z-conditional z-end z-shell&quot;&gt;fi&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;example&quot;&gt;Example!&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Example!&quot;&gt;Example!&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;.&#x2F;gif&#x2F;Screencast-2019-05-24T044159-0400.gif&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
         
@@ -1840,7 +1840,7 @@ So in the end I could solve my problem set very efficiently, without having to w
 &lt;p&gt;So I decided to write a scrip to just do that, I press Ctrl-Print and the magic happens!&lt;&#x2F;p&gt;
 &lt;p&gt;It sets my screen brightness to max. Takes a pic with my webcam. Sets the screen brightness to where it was.  Prompts me to crop the picture it took. Uses &lt;a href=&quot;http:&#x2F;&#x2F;www.fmwconcepts.com&#x2F;imagemagick&#x2F;textcleaner&#x2F;index.php&quot;&gt;textcleaner&lt;&#x2F;a&gt; to clean the picture up. And at last, it automatically inserts the picture in my org document, and displays the picture.&lt;&#x2F;p&gt;
 &lt;p&gt;In other words, a quick and dirty scanner with computer screen flash to scan papers.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;controlling-the-brightness&quot;&gt;Controlling the brightness&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Controlling_the_brightness&quot;&gt;Controlling the brightness&lt;&#x2F;h1&gt;
 &lt;p&gt;First I needed to allow me to control the brightness without sudo. Here I added my group as a group with permissions to edit the brightness.&lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;sudo chgrp ivanaf &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
 sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
@@ -1848,7 +1848,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
 &lt;p&gt;Then I could just use &lt;&#x2F;p&gt;
 &lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;echo brightness &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_backlight&#x2F;brightness
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;taking-the-picture&quot;&gt;Taking the picture&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Taking_the_picture&quot;&gt;Taking the picture&lt;&#x2F;h1&gt;
 &lt;p&gt;I use pygame to take the picture.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;python&quot; class=&quot;language-python z-code&quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;z-source z-python&quot;&gt;&lt;span class=&quot;z-meta z-statement z-import z-python&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-python&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
   &lt;span class=&quot;z-meta z-statement z-import z-python&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-python&quot;&gt;import&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;camera&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
@@ -1953,7 +1953,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
   
       &lt;span class=&quot;z-meta z-function-call z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-variable z-function z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;quit&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-begin z-python&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-end z-python&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;cropping-the-picture&quot;&gt;Cropping the picture&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cropping_the_picture&quot;&gt;Cropping the picture&lt;&#x2F;h1&gt;
 &lt;p&gt;Again, I use pygame, using the code from these online answers: 
 &lt;a href=&quot;https:&#x2F;&#x2F;coderwall.com&#x2F;p&#x2F;hmp8uw&#x2F;image-cropping-using-pygame&quot;&gt;https:&#x2F;&#x2F;coderwall.com&#x2F;p&#x2F;hmp8uw&#x2F;image-cropping-using-pygame&lt;&#x2F;a&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;6136588&#x2F;image-cropping-using-python&#x2F;8696558&quot;&gt;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;6136588&#x2F;image-cropping-using-python&#x2F;8696558&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
@@ -2049,10 +2049,10 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
     
         &lt;span class=&quot;z-meta z-function-call z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;pygame&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-variable z-function z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;quit&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-begin z-python&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-end z-python&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;cleaning-the-image&quot;&gt;Cleaning the image&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Cleaning_the_image&quot;&gt;Cleaning the image&lt;&#x2F;h1&gt;
 &lt;p&gt;To clean the image, I was trying to remove the background by blurring the image, and dividing the original image by the blurred one.&lt;&#x2F;p&gt;
 &lt;p&gt;This method is very effective. However, I found something even better, &lt;a href=&quot;http:&#x2F;&#x2F;www.fmwconcepts.com&#x2F;imagemagick&#x2F;textcleaner&#x2F;index.php&quot;&gt;Fred&#x27;s ImageMagick Scripts for text cleaning&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Putting_it_all_together&quot;&gt;Putting it all together&lt;&#x2F;h1&gt;
 &lt;pre data-lang=&quot;el&quot; class=&quot;language-el z-code&quot;&gt;&lt;code class=&quot;language-el&quot; data-lang=&quot;el&quot;&gt;&lt;span class=&quot;z-source z-lisp&quot;&gt;    &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-lisp&quot;&gt;&lt;span class=&quot;z-storage z-type z-function-type z-lisp&quot;&gt;defun&lt;&#x2F;span&gt; &lt;span class=&quot;z-entity z-name z-function z-lisp&quot;&gt;ivanaf&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&amp;amp;optional landscape&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;interactive&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;let&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;*&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;python&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;cam&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;command &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;~&#x2F;org&#x2F;packages&#x2F;webcamscan&#x2F;webcam.py&lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
@@ -2091,7 +2091,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;define&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;key org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;mode&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;map&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;kbd &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;C-&amp;lt;print&amp;gt; &lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &amp;#39;ivanaf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;define&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;key org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;mode&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;map&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;kbd &lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;M-&amp;lt;print&amp;gt; &lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &amp;#39;ivanaf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;&#x2F;&lt;&#x2F;span&gt;org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;scan&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;l&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;results&quot;&gt;Results:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Results:&quot;&gt;Results:&lt;&#x2F;h1&gt;
 &lt;p&gt;Here is a &amp;quot;scan&amp;quot; of the back of the mit career fair book from last year, taken in my dark room.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;15370864184127958.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;15370864184127958.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Which is about as good as possible, give the quality of the light &#x2F; camera. &lt;&#x2F;p&gt;
@@ -2108,16 +2108,16 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
         <link rel="alternate" href="/export-subtree-with-files.html" type="text/html"/>
         <id>/export-subtree-with-files.html</id>
         
-        <content type="html">&lt;h1 id=&quot;update&quot;&gt;Update:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;Update:&quot;&gt;Update:&lt;&#x2F;h1&gt;
 &lt;p&gt;Now this is on on github, in the repo &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;org-export-with-files&quot;&gt;org-export-with-files&lt;&#x2F;a&gt;. It is fairly usable and fairly useful. The next step is to figure out how to best deal with custom links.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Summary&quot;&gt;Summary&lt;&#x2F;h1&gt;
 &lt;p&gt;I have a main org files that contains notes for multiple classes and papers in different headlines. It is very easy to use this org file to find information since every note contains links to the relevant papers.&lt;&#x2F;p&gt;
 &lt;p&gt;However, sharing this file with someone can be challenging, since I just want to share the relevant notes&#x2F;papers and not everything that is linked by this file.&lt;&#x2F;p&gt;
 &lt;p&gt;The code below solves this problem. It creates a hard link of every file linked by the specific headline into the export directory and fixes all the links in the exported pdf so that it points to the relative location of those files.&lt;&#x2F;p&gt;
 &lt;p&gt;This allows me to quickly generate a folder that contains all the files I wanna share as well as a pdf that allows the other person to easily navigate through the files and see the relevant information.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;warning&quot;&gt;Warning:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Warning:&quot;&gt;Warning:&lt;&#x2F;h1&gt;
 &lt;p&gt;The file links when exporting to latex need to be of the form [[&lt;file&gt;] [name of the link]]. I other words, they need a description. Links without descriptions are interpreted as images, even if they have extensions such as pdf.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;code&quot;&gt;Code&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Code&quot;&gt;Code&lt;&#x2F;h1&gt;
 &lt;pre data-lang=&quot;el&quot; class=&quot;language-el z-code&quot;&gt;&lt;code class=&quot;language-el&quot; data-lang=&quot;el&quot;&gt;&lt;span class=&quot;z-source z-lisp&quot;&gt;    &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;require&lt;&#x2F;span&gt; &amp;#39;ox&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
     
     
@@ -2213,7 +2213,7 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
         <id>/simple-proof-weak-master-theorem.html</id>
         
         <content type="html">&lt;p&gt;For a 006 student piazza question. Te student liked my answer so I decided to share!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;work-per-level&quot;&gt;Work per level:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Work_per_level:&quot;&gt;Work per level:&lt;&#x2F;h1&gt;
 &lt;p&gt;Suppose you have:&lt;&#x2F;p&gt;
 &lt;p&gt;$$T(n) = a T(n&#x2F;b) + n^c$$&lt;&#x2F;p&gt;
 &lt;p&gt;The amount of work done on the root of the tree is:&lt;&#x2F;p&gt;
@@ -2222,27 +2222,27 @@ sudo &#x2F;bin&#x2F;chmod g+w  &#x2F;sys&#x2F;class&#x2F;backlight&#x2F;intel_ba
 &lt;p&gt;$$n^c \frac{a}{b^c}$$&lt;&#x2F;p&gt;
 &lt;p&gt;so on the $i^{th}$  level, considering the root to be level 0, is:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \left(\frac{a}{b^c}\right)^i$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;number-of-levels&quot;&gt;Number of levels&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Number_of_levels&quot;&gt;Number of levels&lt;&#x2F;h1&gt;
 &lt;p&gt;Given that the size of an element of the tree decreases by $b$ in each level, e.g. $n$ -&amp;gt; n&#x2F;b, n&#x2F;b^2…&lt;&#x2F;p&gt;
 &lt;p&gt;An element of the tree will have size 1 at the level:
 $$\log_bn$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;total-work-on-the-tree&quot;&gt;Total work on the tree&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Total_work_on_the_tree&quot;&gt;Total work on the tree&lt;&#x2F;h1&gt;
 &lt;p&gt;The total amount of work on the tree is therefore:&lt;&#x2F;p&gt;
 &lt;p&gt;$$\sum_{i=0}^{\log_bn} n^c \left(\frac{a}{b^c}\right)^i = n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i $$&lt;&#x2F;p&gt;
 &lt;p&gt;This naturally leads to 3 cases:&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) &amp;gt;1$$&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) = 1$$&lt;&#x2F;p&gt;
 &lt;p&gt;$$ \left(\frac{a}{b^c}\right) &amp;lt; 1$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-1-frac-a-b-c-1&quot;&gt;Case 1: $$\frac{a}{b^c}&amp;lt;1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_1:_$$\frac{a}{b^c}&amp;lt;1$$&quot;&gt;Case 1: $$\frac{a}{b^c}&amp;lt;1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;You have a geometric series of ratio &amp;lt; 1:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i \le n^c &lt;br&#x2F;&gt; \sum_{i=0}^{\infty} \left(\frac{a}{b^c}\right)^i = n^c \frac{1}{1-\left(\frac{a}{b^c}\right)}$$&lt;&#x2F;p&gt;
 &lt;p&gt;And this new term is just a constant&lt;&#x2F;p&gt;
 &lt;p&gt;So:&lt;&#x2F;p&gt;
 &lt;p&gt;$$\theta ( n^{c})$$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-2-frac-a-b-c-1&quot;&gt;Case 2: $$\frac{a}{b^c}=1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_2:_$$\frac{a}{b^c}=1$$&quot;&gt;Case 2: $$\frac{a}{b^c}=1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;Now the amount of work per level is the same, so:&lt;&#x2F;p&gt;
 &lt;p&gt;$$n^c \sum_{i=0}^{\log_bn} \left(\frac{a}{b^c}\right)^i= n^c \sum_{i=0}^{\log_bn} 1 = n^c \log_bn $$&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;case-3-frac-a-b-c-1&quot;&gt;Case 3: $$\frac{a}{b^c}&amp;gt;1$$&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Case_3:_$$\frac{a}{b^c}&amp;gt;1$$&quot;&gt;Case 3: $$\frac{a}{b^c}&amp;gt;1$$&lt;&#x2F;h1&gt;
 &lt;p&gt;The easiest way to deal with this case is to simply turn the tree upside down.&lt;&#x2F;p&gt;
 &lt;p&gt;The amount of work done at the leaves of the tree is the same as the number of leaves on the tree, which is:&lt;&#x2F;p&gt;
 &lt;p&gt;$$a^{\log_b n} = \left(b^{\log_ba} \right)^{\log_bn} = \left(b^{\log_bn} \right)^{\log_ba} = n^{\log_ba}$$&lt;&#x2F;p&gt;
@@ -2293,10 +2293,10 @@ suggestions for how to edit pictures, and so on. Or at least that is the intenti
         <link rel="alternate" href="/emacs-drag-drop-pdfs-paste-html-custom-templates.html" type="text/html"/>
         <id>/emacs-drag-drop-pdfs-paste-html-custom-templates.html</id>
         
-        <content type="html">&lt;h1 id=&quot;update&quot;&gt;UPDATE:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;UPDATE:&quot;&gt;UPDATE:&lt;&#x2F;h1&gt;
 &lt;p&gt;This documents my first experience with programming in elisp. In restrospect, I was really bad at it. This post then shows that you can still make something with elisp even if you are bad at it.&lt;&#x2F;p&gt;
 &lt;p&gt;A slightly better example of making something with elisp is on my package clipboard2org, a tiny package to paste html or picture. See &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;itf&#x2F;clipboard2org&#x2F;blob&#x2F;master&#x2F;clipboard2org.el&quot;&gt;clipboard2org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;pdf-files-drag-drop&quot;&gt;PDF files drag-drop&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;PDF_files_drag-drop&quot;&gt;PDF files drag-drop&lt;&#x2F;h1&gt;
 &lt;p&gt;I wanted to be able to drag and drop pdf files, as well as drag and drop
 pdf URLs to emacs. The result of dragging should be to download the file
 to a directory under the same directory as the org file you are editing
@@ -2385,7 +2385,7 @@ fails back to the original drag and drop code.&lt;&#x2F;p&gt;
     
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;add&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;to&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;list&lt;&#x2F;span&gt; &amp;#39;dnd&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;protocol&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;alist &amp;#39;&lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-string z-quoted z-double z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;^https?.*&lt;span class=&quot;z-constant z-character z-escape z-lisp&quot;&gt;\\&lt;&#x2F;span&gt;.pdf&lt;span class=&quot;z-punctuation z-definition z-string z-end z-lisp&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; .  org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;file&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;pdf&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;url&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;dnd&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;protocol&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;custom-easy-templates&quot;&gt;Custom easy templates&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Custom_easy_templates&quot;&gt;Custom easy templates&lt;&#x2F;h1&gt;
 &lt;p&gt;Easy templates cannot run arbitrary code. They are handled by org-cycle,
 which is a function that handles every action that TAB performs in org
 mode.&lt;&#x2F;p&gt;
@@ -2431,7 +2431,7 @@ presses tab.&lt;&#x2F;p&gt;
     &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-control z-lisp&quot;&gt;with&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;eval&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;after&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;load&lt;&#x2F;span&gt; &amp;#39;org 
       &lt;span class=&quot;z-meta z-group z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-begin z-lisp&quot;&gt;(&lt;&#x2F;span&gt;advice&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;add &lt;span class=&quot;z-constant z-character z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-lisp&quot;&gt;#&lt;&#x2F;span&gt;&amp;#39;org-cycle&lt;&#x2F;span&gt; :before&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;&lt;span class=&quot;z-support z-function z-lisp&quot;&gt;until&lt;&#x2F;span&gt;   &lt;span class=&quot;z-constant z-character z-lisp&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-constant z-lisp&quot;&gt;#&lt;&#x2F;span&gt;&amp;#39;&lt;&#x2F;span&gt; org&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;try&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;my&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;template&lt;span class=&quot;z-keyword z-operator z-arithmetic z-lisp&quot;&gt;-&lt;&#x2F;span&gt;function&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-group z-end z-lisp&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h1 id=&quot;pasting-html-in-org-mode&quot;&gt;Pasting HTML in org mode&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Pasting_HTML_in_org_mode&quot;&gt;Pasting HTML in org mode&lt;&#x2F;h1&gt;
 &lt;p&gt;This was inspired by
 &lt;a href=&quot;https:&#x2F;&#x2F;emacs.stackexchange.com&#x2F;questions&#x2F;12121&#x2F;org-mode-parsing-rich-html-directly-when-pasting&quot;&gt;this stack overflow question&lt;&#x2F;a&gt;. It suggested using &lt;code&gt;xclip&lt;&#x2F;code&gt; to access the
 clipboard.&lt;&#x2F;p&gt;
@@ -2479,7 +2479,7 @@ then uses pandoc to convert the html to org mode.&lt;&#x2F;p&gt;
         <content type="html">&lt;p&gt;Backup here:
 &lt;a href=&quot;&#x2F;html&#x2F;Groebner_Basis.html&quot;&gt;Groebner_Basis&lt;&#x2F;a&gt;
 Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;GroebnerBasis--Sage.pdf&quot;&gt;GroebnerBasis–Sage&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;figures&quot;&gt;Figures&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Figures&quot;&gt;Figures&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(1).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(1).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(2).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(2).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -2488,7 +2488,7 @@ Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;G
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(5).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(5).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(6).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(6).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;sage0(7).png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;sage0(7).png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;css&quot;&gt;CSS&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;CSS&quot;&gt;CSS&lt;&#x2F;h1&gt;
 &lt;p&gt;&amp;lt;.&#x2F;css&#x2F;sagemath.css&amp;gt;&lt;&#x2F;p&gt;
 </content>
         
@@ -2506,7 +2506,7 @@ Here is the pdf with better formatting: &lt;a href=&quot;&#x2F;.&#x2F;pdf&#x2F;G
         <content type="html">&lt;p&gt;My friends and I built an led matrix with 30x60 pixels. This post will
 focus mainly on the software, but first, let&#x27;s skim through the
 hardware.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;material&quot;&gt;Material:&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Material:&quot;&gt;Material:&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;70 meters of ws2812 strips&lt;&#x2F;li&gt;
 &lt;li&gt;A 90 amps, 5v power supply&lt;&#x2F;li&gt;
@@ -2518,7 +2518,7 @@ hardware.&lt;&#x2F;p&gt;
 &lt;li&gt;Hot glue&lt;&#x2F;li&gt;
 &lt;li&gt;Plywood, 2x3s pieces of wood and diffuse vinyl fabric for the frame.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;construction&quot;&gt;Construction&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Construction&quot;&gt;Construction&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;ledbuilding.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;ledbuilding640x640.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The construction was simple, but took around 40 man hours.&lt;&#x2F;p&gt;
 &lt;p&gt;First, we cut all the Led strips into 2meter strips, and soldered header
@@ -2537,7 +2537,7 @@ the LEDs using a stripped Ethernet cable.&lt;&#x2F;p&gt;
 &lt;p&gt;So far, the main difficulty was handling the voltage drop caused by
 90amps going through the wires. Just get larger wires and you&#x27;ll be good
 to go, as long as you calculate the voltage drop before building it.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;software&quot;&gt;Software&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Software&quot;&gt;Software&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;panel.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;panel.jpg&quot; alt=&quot;img&quot; title=&quot;Panel&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The software of this project was pretty fun to code and it is pretty fun
 to use in my opinion.&lt;&#x2F;p&gt;
@@ -2559,7 +2559,7 @@ communication through UDP &#x2F; WebRTC 7- Should run on Linux, Windows and
 Mac.&lt;&#x2F;p&gt;
 &lt;p&gt;This will be written in the order that things were coded. You should
 skip direct to the patterns and effects session to see the cool parts!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;starting&quot;&gt;Starting&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Starting&quot;&gt;Starting&lt;&#x2F;h2&gt;
 &lt;p&gt;I started programming the led panel long before I had the LED panel. So
 the first thing I needed, in my opinion, was a fake led panel.&lt;&#x2F;p&gt;
 &lt;p&gt;I found a friend&#x27;s project &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mlsteele&#x2F;curtain&quot;&gt;Iron
@@ -2584,7 +2584,7 @@ edge cases by making the screen &amp;quot;repeatable and infinite&amp;quot; i.e.
 address the pixel -1 you go back to the right most pixel.&lt;&#x2F;p&gt;
 &lt;p&gt;After all the basics were built it was time to start building the
 patterns.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;patterns-and-effects&quot;&gt;Patterns and effects&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Patterns_and_effects&quot;&gt;Patterns and effects&lt;&#x2F;h2&gt;
 &lt;p&gt;Patterns objective:&lt;&#x2F;p&gt;
 &lt;p&gt;1- Be easy to modify or add effects (example: increase speed, change
 colors, etc) 2- Be easy to combine 3- Possible to save to a file and
@@ -2610,7 +2610,7 @@ create a new object that implements a function that generates this
 particulat image.&lt;&#x2F;p&gt;
 &lt;p&gt;Instead, I decided to make the patterns functions that, when possible,
 don&#x27;t haven an internal state.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;why-no-internal-state&quot;&gt;Why no internal state?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Why_no_internal_state?&quot;&gt;Why no internal state?&lt;&#x2F;h3&gt;
 &lt;p&gt;The main advantage of not having an internal state is that it allows one
 to easily modify the patterns. Let&#x27;s say that we want to generate a
 circle that increases and decreases its size in each frame. One option
@@ -2621,7 +2621,7 @@ works, but is rather hard to modify.&lt;&#x2F;p&gt;
 takes as its input something that can be used to generate the circle
 radius. At each step, we can have this input change, and, this way, we
 can create any kind of pattern that involves circles that change sizes.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;what-about-this-input&quot;&gt;What about this input?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;What_about_this_input?&quot;&gt;What about this input?&lt;&#x2F;h3&gt;
 &lt;p&gt;You might ask now, what about this input? Wouldn&#x27;t it be very specific
 to each pattern and make it hard to modify or combine them? In theory,
 this could be the case if you don&#x27;t make the input generic enough. In
@@ -2632,7 +2632,7 @@ necessary information related to patterns is stored. It stores the frame
 number, the canvas that will contain the image that will be generated,
 the radius of the circle, audio information, etc. And any pattern could
 potentially modify it or have it modified by functions!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;fast-development&quot;&gt;Fast development&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Fast_development&quot;&gt;Fast development&lt;&#x2F;h3&gt;
 &lt;p&gt;After defining the input to patterns all the development got faster.
 Patterns were defined as &amp;quot;Functions that take pattern inputs and return
 pattern inputs&amp;quot; . Functions were defined as &amp;quot;Functions that take
@@ -2652,7 +2652,7 @@ was not enough to generate arbitrarily complex functions.&lt;&#x2F;p&gt;
 &lt;p&gt;The next milestone on the development, was when I created the function
 &amp;quot;arg&amp;quot;. Arg is the only function in the code that doesn&#x27;t immediately
 modify a pattern.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;what-is-arg&quot;&gt;What is arg?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;What_is_arg?&quot;&gt;What is arg?&lt;&#x2F;h3&gt;
 &lt;p&gt;I needed a way to modify the aruments to the functions. However, since
 every function took a pattern and every pattern took a pattern input,
 there was no where to modify the arguments themselves besides hard
@@ -2668,7 +2668,7 @@ number. It is a pattern that evolves in time!&lt;&#x2F;p&gt;
 &lt;p&gt;After arg was defined, lots of other patterns and functions were
 created. Patterns that opened images, functions that took the mean of
 patterns, etc.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;problems-with-lack-of-states&quot;&gt;Problems with lack of states.&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;Problems_with_lack_of_states.&quot;&gt;Problems with lack of states.&lt;&#x2F;h3&gt;
 &lt;p&gt;However, the design choice of abolishing internal states could only me
 so far. I wanted to create transitions between patterns and patterns
 such as the snake game.&lt;&#x2F;p&gt;
@@ -2683,7 +2683,7 @@ can&#x27;t be modified by other patterns. Even with those limitations, those
 patterns could make extensive use of the rest of the functions. As soon
 as I created a snake game pattern it was possible to blur the snakes,
 change their color and make them brighter and darker with the rithm..&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;other-small-detais&quot;&gt;Other small detais&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Other_small_detais&quot;&gt;Other small detais&lt;&#x2F;h2&gt;
 &lt;p&gt;This covers most of the development of the software. The audio
 information are functions inside the pattern input, and any pattern can
 make use of the audio.&lt;&#x2F;p&gt;
@@ -2705,9 +2705,9 @@ In order to run it at fast speeds, you need to use pypy.&lt;&#x2F;p&gt;
         <link rel="alternate" href="/linear-panorama.html" type="text/html"/>
         <id>/linear-panorama.html</id>
         
-        <content type="html">&lt;h1 id=&quot;summary&quot;&gt;Summary:&lt;&#x2F;h1&gt;
+        <content type="html">&lt;h1 id=&quot;Summary:&quot;&gt;Summary:&lt;&#x2F;h1&gt;
 &lt;p&gt;Photographing linear panoramas of murals, in a place with poor light conditions, and short distance to the wall.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Intro&quot;&gt;Intro&lt;&#x2F;h1&gt;
 &lt;p&gt;Photographing the murals in my dorm is a really challenging task. The
 distance between the walls in the corridor is between 1.5m to 1.7m and
 the height of the murals is approximately 2m.&lt;&#x2F;p&gt;
@@ -2717,7 +2717,7 @@ besides a simple octopus floor lamp with yellowish incandescent lights.&lt;&#x2F
 linear panoramas (click for full size)
 &lt;a href=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;5&#x2F;5e&#x2F;BS.jpg&quot;&gt;&lt;img src=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;thumb&#x2F;5&#x2F;5e&#x2F;BS.jpg&#x2F;798px-BS.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;5&#x2F;5b&#x2F;BC.jpg&quot;&gt;&lt;img src=&quot;http:&#x2F;&#x2F;slugwiki.mit.edu&#x2F;images&#x2F;thumb&#x2F;5&#x2F;5b&#x2F;BC.jpg&#x2F;800px-BC.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Canon T2i with &lt;a href=&quot;http:&#x2F;&#x2F;www.magiclantern.fm&#x2F;&quot;&gt;&lt;em&gt;Magic Lantern&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;
 installed&lt;&#x2F;li&gt;
@@ -2726,14 +2726,14 @@ a different company)&lt;&#x2F;li&gt;
 &lt;li&gt;Octopus floor lamp (any floor lamp would work)&lt;&#x2F;li&gt;
 &lt;li&gt;Tripod (set to around 1m)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;software&quot;&gt;Software&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;Software&quot;&gt;Software&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Enfuse&lt;&#x2F;li&gt;
 &lt;li&gt;Macrofusion&lt;&#x2F;li&gt;
 &lt;li&gt;Hugin&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;work-flow&quot;&gt;Work Flow&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;calibrate-the-lens&quot;&gt;Calibrate the Lens.&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;Work_Flow&quot;&gt;Work Flow&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;Calibrate_the_Lens.&quot;&gt;Calibrate the Lens.&lt;&#x2F;h2&gt;
 &lt;p&gt;If your lens are not calibrated, this should be the first step, if not,
 skip this session. At first, take a picture of a mural in a way that
 there are many clear straight lines in the image. Load the image in
@@ -2744,7 +2744,7 @@ vertical lines. However, do not choose horizontal line on the options.&lt;&#x2F;
 &lt;p&gt;If you are using a non standard lens, such as the Samyang 8mm, it is
 sometimes better to calibrate the lens for the approximate distance that
 you are gonna take the pictures from.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;taking-the-pictures&quot;&gt;Taking the pictures.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Taking_the_pictures.&quot;&gt;Taking the pictures.&lt;&#x2F;h2&gt;
 &lt;p&gt;Set your tripod to be about half of the right of the wall your are
 photographing (in case it is very near you). If it is farther, or you
 are not using fish-eye lens this won&#x27;t affect you much.&lt;&#x2F;p&gt;
@@ -2764,7 +2764,7 @@ shoot on shooting preferences of Magic Lantern, if you use a canon dlsr.&lt;&#x2
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_1.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_2.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_3.jpg&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;fusing-the-images&quot;&gt;Fusing the images&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Fusing_the_images&quot;&gt;Fusing the images&lt;&#x2F;h2&gt;
 &lt;p&gt;:CUSTOM_ID: fusing-the-images&lt;&#x2F;p&gt;
 &lt;p&gt;To fuse the images, you should use
 &lt;a href=&quot;http:&#x2F;&#x2F;wiki.panotools.org&#x2F;Enfuse&quot;&gt;Enfuse&lt;&#x2F;a&gt;. Enfuse is a command line
@@ -2775,7 +2775,7 @@ Macrofusion is a fast, simple and responsive GUI for Enfuse. Macrofusion
 makes it easy to choose the weights of exposure, contrast and saturation
 when fusing the images.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_enfused.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_enfused.jpg&quot; alt=&quot;img&quot; title=&quot;Mural enfused &quot; &#x2F;&gt;&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;straightening-the-images&quot;&gt;Straightening the images.&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Straightening_the_images.&quot;&gt;Straightening the images.&lt;&#x2F;h2&gt;
 &lt;p&gt;Open the image in Hugin, and load the lens configuration for your lens.&lt;&#x2F;p&gt;
 &lt;p&gt;Choose a rectilinear projection in Hugin&#x27;s fast preview window.&lt;&#x2F;p&gt;
 &lt;p&gt;[&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;hugin_options.png&quot; alt=&quot;img&quot; &#x2F;&gt;)&lt;&#x2F;p&gt;
@@ -2789,12 +2789,12 @@ SourceForge page&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 is enough to fix the image colors. And you just need to stitch the
 image.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_final.jpg&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;jpg&#x2F;mural_final.jpg&quot; alt=&quot;img&quot; title=&quot;Mural final &quot; &#x2F;&gt;&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;taking-the-other-pictures&quot;&gt;Taking the other pictures&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Taking_the_other_pictures&quot;&gt;Taking the other pictures&lt;&#x2F;h2&gt;
 &lt;p&gt;Move the camera to a new position and leave some overlap between the
 images. It doesn&#x27;t matter how much overlap you are leaving between the
 images, in general, what matters is that the images overlap in a line
 that can contain small errors.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;stitching&quot;&gt;Stitching&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Stitching&quot;&gt;Stitching&lt;&#x2F;h2&gt;
 &lt;p&gt;The images of the linear panorama should be added one at a time,
 therefore, you should start with a image that would be in the middle and
 then move to the corners. Since this is a tutorial I will stitch only 2
@@ -2820,7 +2820,7 @@ the result from a single image.&lt;&#x2F;p&gt;
 change only one image at a time. The parameters that you should optimize
 are EV, Er and Eb. Optimizing the lens parameters usually result in poor
 blending for linear panoramas.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;adding-masks&quot;&gt;Adding masks&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Adding_masks&quot;&gt;Adding masks&lt;&#x2F;h2&gt;
 &lt;p&gt;If the images don&#x27;t perfectly match on top of each other, you have 2
 options:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -2831,7 +2831,7 @@ others.&lt;&#x2F;li&gt;
 &lt;p&gt;Generally adding masks is faster and results in fewer problems.&lt;&#x2F;p&gt;
 &lt;p&gt;You should also use masks to force Hugin to choose the image that has
 the best resolution for areas where the details are important.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;stitching-1&quot;&gt;Stitching&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Stitching-1&quot;&gt;Stitching&lt;&#x2F;h2&gt;
 &lt;p&gt;After you&#x27;ve added all the images it is time to stitch. If you are
 stitching to JPG, you should keep the canvas size&#x27;s dimensions below
 2&lt;sup&gt;32&lt;&#x2F;sup&gt;-1.&lt;&#x2F;p&gt;
@@ -2841,7 +2841,7 @@ size if you simply want the largest resolution possible, and stitch!&lt;&#x2F;p&
 &lt;small&gt;
 Mural stitched using only 2 control points&lt;&#x2F;small&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished your linear panorama.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;common-problems&quot;&gt;Common Problems&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;Common_Problems&quot;&gt;Common Problems&lt;&#x2F;h2&gt;
 &lt;p&gt;The horizon might start to bend. In order to fix this, create a horizon
 line accross pictures, by adding control points for the horizon line
 across different images.&lt;&#x2F;p&gt;
@@ -2860,7 +2860,7 @@ across different images.&lt;&#x2F;p&gt;
         
         <content type="html">&lt;p&gt;This is a reblog from my &lt;a href=&quot;http:&#x2F;&#x2F;olimpiadascientificas.org&#x2F;vida-de-olimpico&#x2F;ivan.olimpiadascientificas.com&#x2F;2013&#x2F;03&#x2F;29&#x2F;i-was-admitted-in-harvard-mit-yale-and-princeton&#x2F;index.html&quot;&gt;old blog&lt;&#x2F;a&gt;. The missing college essay that was too personal is the one that was adapted to the &amp;lt;baby_deer.md&amp;gt; post.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot;&gt;&lt;img src=&quot;&#x2F;.&#x2F;png&#x2F;bonecooc.png&quot; alt=&quot;img&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;i-was-admitted-in-harvard-mit-yale-and-princeton&quot;&gt;I was admitted in Harvard, MIT, Yale and Princeton :)&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;I_was_admitted_in_Harvard,_MIT,_Yale_and_Princeton_:)&quot;&gt;I was admitted in Harvard, MIT, Yale and Princeton :)&lt;&#x2F;h1&gt;
 &lt;p&gt;&lt;span class=&quot;timestamp-wrapper&quot;&gt;&lt;span class=&quot;timestamp&quot;&gt;[2013-03-29 Fri]&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
 Hey there! Today’s post will be in English; I really hope my usual readers won’t mind that.&lt;&#x2F;p&gt;
 &lt;p&gt;Now that all the university results were released, I wanted to share my essays – maybe some day they will help someone. And even if they don’t help, I hope someone will find them interesting :).&lt;&#x2F;p&gt;
