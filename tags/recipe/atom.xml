@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Ivan.fyi - recipe</title>
     <subtitle>Ivan Tadeu Ferreira Antunes Filho, software engineer in Cambridge, Massachussets, Boston Area</subtitle>
-    <link href="/tags/recipe/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="/"/>
+    <link rel="self" type="application/atom+xml" href="/tags/recipe/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2020-09-18T00:00:00+00:00</updated>
     <id>/tags/recipe/atom.xml</id>
@@ -11,16 +11,22 @@
         <title>Pão de queijo recipe (brazilian cheese bread)</title>
         <published>2020-07-26T00:00:00+00:00</published>
         <updated>2020-09-18T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="/pao-de-queijo-recipe-brazilian-cheese-bread.html" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="/pao-de-queijo-recipe-brazilian-cheese-bread.html"/>
         <id>/pao-de-queijo-recipe-brazilian-cheese-bread.html</id>
         
-        <content type="html">&lt;p&gt;Brazilian cheese bread is a super forgiving recipe: as long as you use tapioca flour and you don&#x27;t underbake it, you can change the ingredients to your hearts content.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="/pao-de-queijo-recipe-brazilian-cheese-bread.html">&lt;p&gt;Brazilian cheese bread is a super forgiving recipe: as long as you use tapioca flour and you don&#x27;t underbake it, you can change the ingredients to your hearts content.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;Lazy_recipe&quot;&gt;Lazy recipe&lt;&#x2F;h1&gt;
 &lt;ul&gt;
-&lt;li&gt;about 900g of tapioca flour&#x2F;starch (if you have the option get &amp;quot;polvilho azedo&amp;quot;, i.e. fermented tapioca starch, since it hydrates better). You can buy this at any Brazilian market&lt;&#x2F;li&gt;
+&lt;li&gt;about 900g of tapioca flour&#x2F;starch (if you have the option get &quot;polvilho azedo&quot;, i.e. fermented tapioca starch, since it hydrates better). You can buy this at any Brazilian market&lt;&#x2F;li&gt;
 &lt;li&gt;2 cups of milk (hydration. Can be substituted by water)&lt;&#x2F;li&gt;
 &lt;li&gt;half a cup of oil (affects the texture. can be substituted by eggs, or anything)&lt;&#x2F;li&gt;
 &lt;li&gt;2 to 4 eggs (binding. Can be substituted by mashed cassava, mashed potatoes, etc)&lt;&#x2F;li&gt;

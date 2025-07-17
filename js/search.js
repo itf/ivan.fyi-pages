@@ -85,7 +85,7 @@ window.onload = function() {
 
             var headerDiv = document.createElement("div");// create a div element
 
-            var headerContent = '<form name="closeSearch"><h2><button type="submit" title="Close Search"><i class="svgs x"></i></button> Results For: '.concat(document.getElementById("searchinput").value, "</h2></form>");// header to use at top of results page
+            var headerContent = '<form name="closeSearch"><h2><button type="submit" title="Close Search"><i class="svgs x"></i></button> <i class="svgs search"></i> '.concat(document.getElementById("searchinput").value, "</h2></form>");// header to use at top of results page
 
             headerDiv.innerHTML = headerContent;// document element div (headerDiv), set the inner contents to our header html (headerContent)
 
@@ -337,24 +337,24 @@ window.onload = function() {
 
             // add <em/> around search terms
             if (word[1] === TERM_WEIGHT) {
-              teaser.push("<b>");
+              teaser.push("<mark>");
             }
 
             startIndex = word[2] + word[0].length;
             // Check the string is ascii characters or not
             var re = /^[\x00-\xff]+$/
             if (word[1] !== TERM_WEIGHT && word[0].length >= 12 && !re.test(word[0])) {
-              // If the string's length is too long, it maybe a Chinese/Japance/Korean article
+              // If the string's length is too long, it maybe a Chinese/Japanese/Korean article
               // if using substring method directly, it may occur error codes on emoji chars
-              var strBefor = body.substring(word[2], startIndex);
-              var strAfter = substringByByte(strBefor, 12);
+              var strBefore = body.substring(word[2], startIndex);
+              var strAfter = substringByByte(strBefore, 12);
               teaser.push(strAfter);
             } else {
               teaser.push(body.substring(word[2], startIndex));
             }
 
             if (word[1] === TERM_WEIGHT) {
-              teaser.push("</b>");
+              teaser.push("</mark>");
             }
           }
           teaser.push("…");
